@@ -1,3 +1,4 @@
+PyYAML==6.0
 liitos==2023.1.21
 navigaattori==2023.1.17
 pikepdf==6.2.8.post1
