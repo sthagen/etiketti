@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:fc2ff64a-7e74-4e30-917e-49ac282673a2",
+  "serialNumber": "urn:uuid:757ec69d-ef0c-4dbe-a908-8561331ac498",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-01-22T12:07:49.910306+00:00",
+    "timestamp": "2023-01-22T14:02:26.897777+00:00",
     "tools": [
       {
         "vendor": "CycloneDX",
@@ -56,21 +56,28 @@
   "components": [
     {
       "type": "library",
-      "bom-ref": "693794c0-ad2f-46ee-bce3-0057b59ea23c",
+      "bom-ref": "3bb22efd-7f01-46c3-b47d-4c55b4275ef6",
+      "name": "PyYAML",
+      "version": "6.0",
+      "purl": "pkg:pypi/pyyaml@6.0"
+    },
+    {
+      "type": "library",
+      "bom-ref": "16ba9740-8263-4141-8ad3-629b608fe326",
       "name": "liitos",
       "version": "2023.1.21",
       "purl": "pkg:pypi/liitos@2023.1.21"
     },
     {
       "type": "library",
-      "bom-ref": "893c894b-84a4-48a4-859f-7b11008f7969",
+      "bom-ref": "316a56ba-f513-465a-b712-7252b93787a9",
       "name": "navigaattori",
       "version": "2023.1.17",
       "purl": "pkg:pypi/navigaattori@2023.1.17"
     },
     {
       "type": "library",
-      "bom-ref": "94470320-72fc-4724-ac78-5230a8e53f11",
+      "bom-ref": "f3d72162-130f-40b1-aea7-50f74452db02",
       "name": "pikepdf",
       "version": "6.2.8.post1",
       "purl": "pkg:pypi/pikepdf@6.2.8.post1"
@@ -78,15 +85,19 @@
   ],
   "dependencies": [
     {
-      "ref": "693794c0-ad2f-46ee-bce3-0057b59ea23c",
+      "ref": "3bb22efd-7f01-46c3-b47d-4c55b4275ef6",
       "dependsOn": []
     },
     {
-      "ref": "893c894b-84a4-48a4-859f-7b11008f7969",
+      "ref": "16ba9740-8263-4141-8ad3-629b608fe326",
       "dependsOn": []
     },
     {
-      "ref": "94470320-72fc-4724-ac78-5230a8e53f11",
+      "ref": "316a56ba-f513-465a-b712-7252b93787a9",
+      "dependsOn": []
+    },
+    {
+      "ref": "f3d72162-130f-40b1-aea7-50f74452db02",
       "dependsOn": []
     }
   ]
