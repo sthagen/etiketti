@@ -36,6 +36,7 @@ authors:
   msgspec: Jim Crist-Harif
   navigaattori: Stefan Hagen
   numcodecs: Alistair Miles
+  packaging: Donald Stufft
   pyparsing: Paul McGuire
   "scikit-learn": Andreas Mueller
   scipy: '"SciPy Developers" <scipy-dev@python.org>'
