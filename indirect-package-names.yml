@@ -1,0 +1,13 @@
+---
+packages:
+- click
+- foran
+- future
+- gitdb
+- lxml
+- msgspec
+- psutil
+- py-cpuinfo
+- smmap
+- taksonomia
+- treelib
