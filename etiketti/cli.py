@@ -1,21 +1,10 @@
 """Command line interface for labeling."""
 import argparse
-import datetime as dti
-import hashlib
-import io
-import logging
-import os
 import pathlib
-import platform
-import shutil
-import subprocess  # nosec B404
 import sys
-import uuid
-import warnings
-from typing import Any, Callable, no_type_check
 
 import etiketti.implementation as impl
-from etiketti import APP_ALIAS, APP_NAME, CONFIG_PATH_STRING, SOURCE_NAME_PATH_STRING, TARGET_NAME_PATH_STRING, log
+from etiketti import APP_ALIAS, APP_NAME, CONFIG_PATH_STRING, SOURCE_NAME_PATH_STRING, TARGET_NAME_PATH_STRING
 
 
 def parse_request(argv: list[str]) -> int | argparse.Namespace:

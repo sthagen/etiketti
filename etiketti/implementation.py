@@ -9,14 +9,21 @@ import warnings
 from typing import no_type_check
 
 try:
-    from liitos import APP_ALIAS as CREATOR_NAME, __version__ as CREATOR_VERSION
+    from liitos import APP_ALIAS as CREATOR_NAME, __version__ as CREATOR_VERSION  # type: ignore
 except ModuleNotFoundError:
     CREATOR_NAME = 'liitos'
     CREATOR_VERSION = '42'
 
 from pikepdf import Pdf
 
-from etiketti.discover import extract_author, extract_meta_parts, get_producer, hash_file, load_conventions, load_label_context
+from etiketti.discover import (
+    extract_author,
+    extract_meta_parts,
+    get_producer,
+    hash_file,
+    load_conventions,
+    load_label_context,
+)
 from etiketti import (
     ENCODING,
     LOG_SEPARATOR,
@@ -46,6 +53,7 @@ def camelize_first_two(dashed_key: str) -> str:
     return f'{words[0].title()}{words[1].title()}'
 
 
+@no_type_check
 def timestamp_patch(create_date: str, modify_date: str, path: PathLike) -> None:
     """Let exiftool patch the time fields."""
     # on linux the below twisted c->m and m->c mappings gives the correct timestamps
@@ -65,6 +73,7 @@ def timestamp_patch(create_date: str, modify_date: str, path: PathLike) -> None:
     log.info(LOG_SEPARATOR)
 
 
+@no_type_check
 def pdf_attributes(path: PathLike) -> None:
     """Let exiftool assess the attributes."""
     exiftool_command = f'exiftool {path}'
@@ -82,6 +91,7 @@ def pdf_attributes(path: PathLike) -> None:
     log.info(LOG_SEPARATOR)
 
 
+@no_type_check
 def pdf_info(path: PathLike) -> None:
     """Let pdfinfo assess some attributes."""
     pdfinfo_command = f'pdfinfo {path}'
@@ -99,6 +109,7 @@ def pdf_info(path: PathLike) -> None:
     log.info(LOG_SEPARATOR)
 
 
+@no_type_check
 def cross_correlate(source: PathLike, conventions: ConventionsType, context: ContextType, target: PathLike) -> None:
     """Load information per conventions and mix with source to create target pdf."""
     backend_version = 'cf. pdf.Producer'  # backend_version  # 'putki 2023.1.1'
