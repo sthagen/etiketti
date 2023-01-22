@@ -40,7 +40,7 @@ Test-Coverage = "https://codes.dilettant.life/coverage/etiketti"
 etiketti = "etiketti.cli:app"
 
 [tool.setuptools.packages.find]
-include = ["etiketti"]
+include = ["etiketti", "example"]
 exclude = ["test*"]
 
 [tool.black]

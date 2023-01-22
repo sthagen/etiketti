@@ -112,6 +112,8 @@ def pdf_info(path: PathLike) -> None:
 @no_type_check
 def cross_correlate(source: PathLike, conventions: ConventionsType, context: ContextType, target: PathLike) -> None:
     """Load information per conventions and mix with source to create target pdf."""
+    source = pathlib.Path(source)
+    target = pathlib.Path(target)
     backend_version = 'cf. pdf.Producer'  # backend_version  # 'putki 2023.1.1'
     log.info('Retrieving producer information:')
     log.info(LOG_SEPARATOR)
