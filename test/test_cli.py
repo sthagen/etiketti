@@ -45,6 +45,7 @@ def test_app_in_pdf_as_folder(caplog, capsys):
     assert 'usage' in err
     assert 'etiketti: error: requested pdf at (test/fixtures/basic) is not a file' in err
 
+
 def test_app_non_existing_cfg_path(caplog, capsys):
     with pytest.raises(SystemExit):
         cli.app(['test/fixtures/basic/this.pdf', '-c', 'does-not-exist'])
