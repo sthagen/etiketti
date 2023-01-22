@@ -1,0 +1,38 @@
+% Variables from meta data:
+\newcommand{\theMetaTitle}{Ttt Tt}%%_PATCH_%_HEADER_%_TITLE_%%
+\newcommand{\theBoxedTitle}{\textbf{\textrm{Ttt Tt Tt}}}%%_PATCH_%_MAIN_%_TITLE_%%
+\newcommand{\theBoxedSubTitle}{\textrm{The Deep Spec}}%%_PATCH_%_SUB_%_TITLE_%%
+\newcommand{\theMetaType}{Engineering Document}%%_PATCH_%_TYPE_%%
+\newcommand{\theMetaDocIdLabel}{Doc. ID:}%%_PATCH_%_ID_%_LABEL_%%
+\newcommand{\theMetaDocId}{P99999}%%_PATCH_%_ID_%%
+\newcommand{\theMetaIssCode}{01}%%_PATCH_%_ISSUE_%%
+\newcommand{\theMetaRevCode}{00}%%_PATCH_%_REVISION_%%
+\newcommand{\theMetaDateLabel}{Date:}%%_PATCH_%_DATE_%_LABEL_%%
+\newcommand{\theMetaDate}{22 JAN 2023}%%_PATCH_%_DATE_%%
+\newcommand{\theMetaPropInfo}{VERY CONSEQUENTIAL}%%_PATCH_%_FRAME_%_NOTE_%%
+\newcommand{\theMetaPageNumPrefix}{Page}%%_PATCH_%_FOOT_%_PAGE_%_COUNTER_%_LABEL_%%
+\newcommand{\theChangeLogIssLabel}{Iss.}%%_PATCH_%_CHANGELOG_%_ISSUE_%_LABEL_%%
+\newcommand{\theChangeLogRevLabel}{Rev.}%%_PATCH_%_CHANGELOG_%_REVISION_%_LABEL_%%
+\newcommand{\theChangeLogDateLabel}{Date}%%_PATCH_%_CHANGELOG_%_DATE_%_LABEL_%%
+\newcommand{\theChangeLogAuthorLabel}{Author}%%_PATCH_%_CHANGELOG_%_AUTHOR_%_LABEL_%%
+\newcommand{\theChangeLogDescLabel}{Description}%%_PATCH_%_CHANGELOG_%_DESCRIPTION_%_LABEL_%%
+\newcommand{\theApprovalsRoleLabel}{Approvals}%%_PATCH_%_APPROVALS_%_ROLE_%_LABEL_%%
+\newcommand{\theApprovalsNameLabel}{Name}%%_PATCH_%_APPROVALS_%_NAME_%_LABEL_%%
+\newcommand{\theApprovalsDateAndSignatureLabel}{Date and Signature}%%_PATCH_%_APPROVALS_%_DATE_%_AND_%_SIGNATURE_%_LABEL_%%
+% Combinations exposed to runtime override:
+\newcommand{\theMetaIssRevLabel}{Issue, Revision:}%%_PATCH_%_ISSUE_%_REVISION_%_COMBINED_%_LABEL_%%
+\newcommand{\theMetaIssRev}{Iss \theMetaIssCode, Rev \theMetaRevCode}%%_PATCH_%_ISSUE_%_REVISION_%_COMBINED_%%
+% The blurb:
+\newcommand{\theProprietaryInformation}{This is a notice.
+}%%_PATCH_%_PROPRIETARY_%_INFORMATION_%_LABEL_%%
+% Vertical adjustable space between subtitle and top of approvals table
+\newcommand{\theApprovalsAdjustableVerticalSpace}{-12.5em}%%_PATCH_%_APPROVALS_%_ADJUSTABLE_%_VERTICAL_%_SPACE_%%
+% PDF Metadata:
+%\hypersetup{%
+%  pdfinfo = {%
+%    Author={VALUE.SLOT},%%_PATCH_%_PDF_%_META_%_AUTHOR_%%
+%    Title={VALUE.SLOT},%%_PATCH_%_PDF_%_META_%_TITLE_%%
+%    Subject={VALUE.SLOT},%%_PATCH_%_PDF_%_META_%_SUBJECT_%%
+%    Keywords={VALUE.SLOT},%%_PATCH_%_PDF_%_META_%_KEYWORDS_%%
+%    Producer={VALUE.SLOT},%%_PATCH_%_PDF_%_META_%_PRODUCER_%%
+%    Creator={VALUE.SLOT}}}%%_PATCH_%_PDF_%_META_%_CREATOR_%%

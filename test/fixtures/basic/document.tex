@@ -1,0 +1,229 @@
+\hypertarget{section}{%
+\section{1}\label{section}}
+
+Top 1 with include.
+
+\hypertarget{a}{%
+\section{A}\label{a}}
+
+Part A with again includes.
+
+\hypertarget{a1}{%
+\subsection{A1}\label{a1}}
+
+Part A with again includes.
+
+And code in C++:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\DataTypeTok{int}\NormalTok{ main}\OperatorTok{()\{\}}
+\end{Highlighting}
+\end{Shaded}
+
+And in javascript:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{const}\NormalTok{ a }\OperatorTok{=}\NormalTok{ b }\KeywordTok{=\textgreater{}} \DecValTok{42}
+\end{Highlighting}
+\end{Shaded}
+
+And JSON:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{\{}
+  \DataTypeTok{"a"}\FunctionTok{:} \OtherTok{[}\DecValTok{{-}1}\OtherTok{,} \KeywordTok{null}\OtherTok{,} \KeywordTok{false}\OtherTok{,} \KeywordTok{true}\OtherTok{,} \DecValTok{42}\OtherTok{,} \StringTok{"yes"}\OtherTok{]}\FunctionTok{,}
+  \DataTypeTok{"b"}\FunctionTok{:} \FunctionTok{\{}
+    \DataTypeTok{"c"}\FunctionTok{:} \FunctionTok{\{}
+      \DataTypeTok{"d"}\FunctionTok{:} \OtherTok{[]}
+    \FunctionTok{\}}
+  \FunctionTok{\}}
+\FunctionTok{\}}
+\end{Highlighting}
+\end{Shaded}
+
+And a list:
+
+\begin{itemize}
+\tightlist
+\item
+  a
+\item
+  list
+\item
+  to
+\item
+  push
+\item
+  the
+\item
+  insert
+\item
+  down
+\end{itemize}
+
+\hypertarget{a2}{%
+\subsubsection{A2}\label{a2}}
+
+Check the heading levels of concat file.
+
+There may be images:
+
+\begin{figure}
+\centering
+\includegraphics{images/blue.png}
+\caption{Caption Text Blue \label{fig:blue}}
+\end{figure}
+
+
+\begin{figure}
+\centering
+\includegraphics[width=0.9\textwidth,height=0.9\textheight]{images/blue.png}
+\caption{Caption Text Blue Repeated Image \label{fig:blue}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics{images/blue.png}
+\caption{INJECTED-CAP-TEXT-TO-MARK-MISSING-CAPTION-IN-OUTPUT \label{fig:blue}}
+\end{figure}
+
+\hypertarget{a2-level-four}{%
+\paragraph{A2 level four}\label{a2-level-four}}
+
+Tables maybe:
+
+\begin{longtable}[]{@{}lcr@{}}
+\toprule()
+Left & Middle & Right \\
+\midrule()
+\endfirsthead
+\toprule()
+Left & Middle & Right \\
+\midrule()
+\endhead
+L1 & M2 & R3 \\
+L4 & M5 & R6 \\
+L7 & M8 & R9 \\
+L10 & M11 & R12 \\
+L13 & M14 & R15 \\
+\bottomrule()
+\rowcolor{white}
+\caption{A caption for a table
+\label{table:left-middle-right}}\tabularnewline
+\end{longtable}
+
+\hypertarget{aa}{%
+\subsection{Aa}\label{aa}}
+
+Some text per the simplified include mechanism to also better verify the
+blank line handling.
+
+\hypertarget{as}{%
+\subsection{As}\label{as}}
+
+Sub part As with again includes.
+
+\hypertarget{as1}{%
+\subsubsection{As1}\label{as1}}
+
+I am included from pat/sub/as.md.
+
+\hypertarget{asb}{%
+\subsection{Asb}\label{asb}}
+
+Funny image reference from upstream:
+
+
+\begin{figure}
+\centering
+\includegraphics{images/blue.png}
+\caption{MISSING-CAPTION-IN-MARKDOWN \label{fig:blue}}
+\end{figure}
+
+The parser survives the comment but:
+
+\begin{quote}
+the caption ``Caption for dot dot images in blue'' will get lost because
+pandoc does not place the image in a figure environment
+\end{quote}
+
+End of sub part cascade.
+
+\hypertarget{ab}{%
+\subsection{Ab}\label{ab}}
+
+End of part cascade.
+
+\begin{figure}
+\centering
+\includegraphics{images/yellow.png}
+\caption{Caption Text Yellow \label{fig:yellow}}
+\end{figure}
+
+\hypertarget{section-1}{%
+\section{2}\label{section-1}}
+
+Funny reference:
+
+\begin{figure}
+\centering
+\includegraphics{images/red.png}
+\caption{Caption Text Sting Red \label{fig:red}}
+\end{figure}
+
+\hypertarget{section-2}{%
+\section{3}\label{section-2}}
+
+I am included by 2.md.
+
+\hypertarget{b}{%
+\section{B}\label{b}}
+
+Yes.
+
+\begin{figure}
+\centering
+\includegraphics{images/red.png}
+\caption{Caption Text Red \label{fig:red}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics{images/lime.png}
+\caption{Caption Text Dot Dot Lime \label{fig:lime}}
+\end{figure}
+
+Yes, an SVG file:
+
+\begin{figure}
+\centering
+\includegraphics{diagrams/squares-and-edges.png}
+\caption{Caption Text for SVG \label{fig:squares-and-edges}}
+\end{figure}
+
+And another one with application hinting suffices:
+
+\begin{figure}
+\centering
+\includegraphics{diagrams/nuts-and-bolts.png}
+\caption{Caption Text for app specific SVG \label{fig:nuts-and-bolts}}
+\end{figure}
+
+\textbf{Some bold text} normal text \emph{italic text} - even
+\emph{\textbf{bold italic}} and so \textbf{\emph{123}} on.
+
+Enumerated list:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  wun
+\item
+  two
+\item
+  three
+\end{enumerate}
