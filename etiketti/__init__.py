@@ -42,6 +42,11 @@ TS_FORMAT_PATCH = '%Y-%m-%d %H:%M:%S'
 SOURCE_NAME_PATH_STRING = os.getenv(f'{APP_ENV}_SOURCE_NAME_PATH_STRING', 'this.pdf')
 TARGET_NAME_PATH_STRING = os.getenv(f'{APP_ENV}_TARGET_NAME_PATH_STRING', 'labeled.pdf')
 CONFIG_PATH_STRING = os.getenv(f'{APP_ENV}_CONFIG_PATH_STRING', '/opt/label/patch-pdf-meta.yml')
+
+ContextType = dict[str, dict[str, str]]
+ConventionsType = dict[str, pathlib.Path]
+PathLike = str | pathlib.Path
+
 __all__: List[str] = [
     'APP_ALIAS',
     'APP_ENV',
@@ -55,6 +60,9 @@ __all__: List[str] = [
     'TS_FORMAT_PATCH',
     'TS_FORMAT_PAYLOADS',
     'TS_FORMAT_ISO',
+    'ContextType',
+    'ConventionsType',
+    'PathLike',
     'log',
 ]
 
