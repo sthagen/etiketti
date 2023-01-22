@@ -5,10 +5,12 @@ urls:
   foran: https://git.sr.ht/~sthagen/foran/tree/default/item/README.md
   idna: https://github.com/kjd/idna/blob/master/README.rst
   jsonschema: https://github.com/python-jsonschema/jsonschema/blob/main/README.rst
+  liitos: https://git.sr.ht/~sthagen/liitos/tree/default/item/README.md
   markdown-it-py: https://github.com/executablebooks/markdown-it-py/blob/master/README.md
   mdformat: https://github.com/executablebooks/mdformat/blob/master/README.md
   mdit-py-plugins: https://github.com/executablebooks/mdit-py-plugins/blob/master/README.md
   mdurl: https://github.com/executablebooks/mdurl/blob/master/README.md
+  navigaattori: https://git.sr.ht/~sthagen/navigaattori/tree/default/item/README.md
   numcodecs: https://github.com/zarr-developers/numcodecs/blob/main/README.rst
   pandoc: https://github.com/boisgera/pandoc/blob/master/README.md
   pyparsing: https://github.com/pyparsing/pyparsing/blob/master/README.rst
@@ -26,11 +28,13 @@ authors:
   frozenlist: '"aiohttp team" <team@aiohttp.org>'
   idna: Kim Davies
   lazr.uri: '"LAZR Developers" team'
+  liitos: Stefan Hagen
   markdown-it-py: Chris Sewell
   mdformat: Taneli Hukkinen
   mdit-py-plugins: Chris Sewell
   mdurl: Taneli Hukkinen
   msgspec: Jim Crist-Harif
+  navigaattori: Stefan Hagen
   numcodecs: Alistair Miles
   pyparsing: Paul McGuire
   "scikit-learn": Andreas Mueller
