@@ -80,19 +80,20 @@ def extract_meta_parts(path: PathLike) -> tuple[str, str, str]:
     return title, subject, keywords
 
 
-def load_conventions(path: PathLike) -> ConventionsType:
+def load_conventions(context: ContextType, path: PathLike) -> ConventionsType:
     """Derive conventions from path to input pdf file."""
     in_pdf = pathlib.Path(path)
     workspace = in_pdf.parent
+    names = context['label']
     return {
         'workspace-folder-path': workspace,
-        'approvals-yml-path': workspace / 'approvals.yml',
-        'metadata-yml-path': workspace / 'metadata.yml',
-        'bookmatter-tex-path': workspace / 'bookmatter.tex',
-        'document-tex-path': workspace / 'document.tex',
-        'driver-tex-path': workspace / 'driver.tex',
-        'metadata-tex-path': workspace / 'metadata.tex',
-        'publisher-tex-path': workspace / 'publisher.tex',
-        'setup-tex-path': workspace / 'setup.tex',
-        'this-tex-path': workspace / 'this.tex',
+        'approvals-yml-path': workspace / names.get('approvals-yml-name', 'approvals.yml'),
+        'metadata-yml-path': workspace / names.get('metadata-yml-name', 'metadata.yml'),
+        'bookmatter-tex-path': workspace / names.get('bookmatter-tex-name', 'bookmatter.tex'),
+        'document-tex-path': workspace / names.get('document-tex-name', 'document.tex'),
+        'driver-tex-path': workspace / names.get('driver-tex-name', 'driver.tex'),
+        'metadata-tex-path': workspace / names.get('metadata-tex-name', 'metadata.tex'),
+        'publisher-tex-path': workspace / names.get('publisher-tex-name', 'publisher.tex'),
+        'setup-tex-path': workspace / names.get('setup-tex-name', 'setup.tex'),
+        'this-tex-path': workspace / names.get('this-tex-name', 'this.tex'),
     }

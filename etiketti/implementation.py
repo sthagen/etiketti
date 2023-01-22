@@ -214,11 +214,18 @@ def patch(options: argparse.Namespace) -> int:
     start_ts = start_time.strftime(TS_FORMAT_PAYLOADS)
     log.info(f'Start timestamp ({start_ts})')
 
-    conventions = load_conventions(in_pdf)
-    log.debug(f'identified {conventions=}')
-
+    log.info(LOG_SEPARATOR)
     context = load_label_context(cfg_path)
-    log.debug(f'loaded label {context=}')
+    log.info('loaded label context:')
+    for k, v in context['label'].items():
+        log.info(f'- {k :17s} -> {v}')
+    log.info(LOG_SEPARATOR)
+
+    conventions = load_conventions(context, in_pdf)
+    log.info('identified conventions:')
+    for k, v in conventions.items():
+        log.info(f'- {k :17s} -> {v}')
+    log.info(LOG_SEPARATOR)
 
     log.info(LOG_SEPARATOR)
     log.info('PDF information from source file:')
