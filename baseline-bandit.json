@@ -1,6 +1,6 @@
 {
   "errors": [],
-  "generated_at": "2023-01-22T14:22:29Z",
+  "generated_at": "2023-01-22T15:11:17Z",
   "metrics": {
     "_totals": {
       "CONFIDENCE.HIGH": 0,
@@ -11,9 +11,9 @@
       "SEVERITY.LOW": 0,
       "SEVERITY.MEDIUM": 0,
       "SEVERITY.UNDEFINED": 0,
-      "loc": 431,
+      "loc": 449,
       "nosec": 0,
-      "skipped_tests": 7
+      "skipped_tests": 8
     },
     "etiketti/__init__.py": {
       "CONFIDENCE.HIGH": 0,
@@ -24,7 +24,7 @@
       "SEVERITY.LOW": 0,
       "SEVERITY.MEDIUM": 0,
       "SEVERITY.UNDEFINED": 0,
-      "loc": 71,
+      "loc": 77,
       "nosec": 0,
       "skipped_tests": 0
     },
@@ -54,6 +54,19 @@
       "nosec": 0,
       "skipped_tests": 1
     },
+    "etiketti/discover.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 79,
+      "nosec": 0,
+      "skipped_tests": 3
+    },
     "etiketti/implementation.py": {
       "CONFIDENCE.HIGH": 0,
       "CONFIDENCE.LOW": 0,
@@ -63,9 +76,9 @@
       "SEVERITY.LOW": 0,
       "SEVERITY.MEDIUM": 0,
       "SEVERITY.UNDEFINED": 0,
-      "loc": 268,
+      "loc": 201,
       "nosec": 0,
-      "skipped_tests": 6
+      "skipped_tests": 4
     }
   },
   "results": []
