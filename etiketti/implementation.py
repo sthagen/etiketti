@@ -55,7 +55,6 @@ def get_producer():
         if line.startswith('This is LuaHBTeX, Version '):
             version_text = line.rstrip()
             break
-    log.info(LOG_SEPARATOR)
     log.info(f'producer version banner: ({version_text})')
 
     # Example: 'This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)'
@@ -187,6 +186,8 @@ def pdf_info(path: PathLike) -> None:
 def cross_correlate(source: PathLike, conventions: ConventionsType, context: ContextType, target: PathLike) -> None:
     """Load information per conventions and mix with source to create target pdf."""
     backend_version = 'cf. pdf.Producer'  # backend_version  # 'putki 2023.1.1'
+    log.info('Retrieving producer information:')
+    log.info(LOG_SEPARATOR)
     producer_version = get_producer()
     creator_version = f'{CREATOR_NAME} {CREATOR_VERSION}'
 
@@ -263,6 +264,8 @@ def cross_correlate(source: PathLike, conventions: ConventionsType, context: Con
             pdf.docinfo['/Title'] = m['dc:title']
             pdf.save(target, fix_metadata_version=False)
 
+    log.info(LOG_SEPARATOR)
+    log.info('Patching the timestamps:')
     timestamp_patch(create_date=m_time_patch, modify_date=c_time_patch, path=target)
 
 
@@ -290,8 +293,19 @@ def patch(options: argparse.Namespace) -> int:
     context = load_label_context(cfg_path)
     log.debug(f'loaded label {context=}')
 
+    log.info(LOG_SEPARATOR)
+    log.info('PDF information from source file:')
+    log.info(LOG_SEPARATOR)
+    pdf_info(in_pdf)
+    log.info('PDF attributes/labels from source file:')
+    log.info(LOG_SEPARATOR)
+    pdf_attributes(in_pdf)
     cross_correlate(source=in_pdf, conventions=conventions, context=context, target=out_pdf)
+    log.info('PDF attributes/labels from target file:')
+    log.info(LOG_SEPARATOR)
     pdf_attributes(out_pdf)
+    log.info('PDF information from target file:')
+    log.info(LOG_SEPARATOR)
     pdf_info(out_pdf)
 
     if enforce:
