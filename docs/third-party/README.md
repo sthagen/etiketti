@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/etiketti/blob/default/sbom.json) with SHA256 checksum ([c82e0014 ...](https://git.sr.ht/~sthagen/etiketti/blob/default/sbom.json.sha256 "sha256:c82e001490cf43f7e5b5841538479ffead7a7f8e731417eef758b21b6cd395f0")).
-<!--[[[end]]] (checksum: c81cbe2ab9d294b2c5e7cca6ebcb55e6)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/etiketti/blob/default/sbom.json) with SHA256 checksum ([96e2c95e ...](https://git.sr.ht/~sthagen/etiketti/blob/default/sbom.json.sha256 "sha256:96e2c95eb809128b8fa493ceb89ed8744d6411c1e9cda6127b6fcf50dac89aa0")).
+<!--[[[end]]] (checksum: 36509dd9a6195917d47bbf32e53c5888)-->
 ## Licenses 
 
 JSON files with complete license info of: [direct dependencies](direct-dependency-licenses.json) | [all dependencies](all-dependency-licenses.json)
@@ -31,13 +31,13 @@ JSON files with complete license info of: [direct dependencies](direct-dependenc
 | [gitdb](https://github.com/gitpython-developers/gitdb)                          | [4.0.10](https://pypi.org/project/gitdb/4.0.10/)            | BSD License                                        | Sebastian Thiel              | Git Object Database                                                                                                                       |
 | [lxml](https://lxml.de/)                                                        | [4.9.2](https://pypi.org/project/lxml/4.9.2/)               | BSD License                                        | lxml dev team                | Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.                                          |
 | [msgspec](https://jcristharif.com/msgspec/)                                     | [0.12.0](https://pypi.org/project/msgspec/0.12.0/)          | BSD License                                        | Jim Crist-Harif              | A fast and friendly JSON/MessagePack library, with optional schema validation                                                             |
+| [packaging](https://github.com/pypa/packaging/blob/main/README.rst)             | [23.0](https://pypi.org/project/packaging/23.0/)            | Apache Software License; BSD License               | Donald Stufft                | Core utilities for Python packages                                                                                                        |
 | [psutil](https://github.com/giampaolo/psutil)                                   | [5.9.4](https://pypi.org/project/psutil/5.9.4/)             | BSD License                                        | Giampaolo Rodola             | Cross-platform lib for process and system monitoring in Python.                                                                           |
 | [py-cpuinfo](https://github.com/workhorsy/py-cpuinfo)                           | [9.0.0](https://pypi.org/project/py-cpuinfo/9.0.0/)         | MIT License                                        | Matthew Brennan Jones        | Get CPU info with pure Python                                                                                                             |
 | [smmap](https://github.com/gitpython-developers/smmap)                          | [5.0.0](https://pypi.org/project/smmap/5.0.0/)              | BSD License                                        | Sebastian Thiel              | A pure Python implementation of a sliding window memory map manager                                                                       |
 | [taksonomia](https://git.sr.ht/~sthagen/taksonomia/tree/default/item/README.md) | [2023.1.10](https://pypi.org/project/taksonomia/2023.1.10/) | MIT License                                        | Stefan Hagen                 | Taxonomy (Finnish: taksonomia) of a folder tree, guided by conventions.                                                                   |
 | [treelib](https://github.com/caesar0301/treelib)                                | [1.6.1](https://pypi.org/project/treelib/1.6.1/)            | Apache Software License                            | Xiaming Chen                 | A Python 2/3 implementation of tree structure.                                                                                            |
-| packaging                                                                       | [23.0](https://pypi.org/project/packaging/23.0/)            | Apache Software License; BSD License               | Donald Stufft                | Core utilities for Python packages                                                                                                        |
-<!--[[[end]]] (checksum: cc5629fd165cfe0e9cab7f9b51fd0640)-->
+<!--[[[end]]] (checksum: 7735a895c3ad7dfc026eb30582edca28)-->
 
 ## Dependency Tree(s)
 
