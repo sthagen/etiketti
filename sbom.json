@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:08e8685c-2298-424d-a490-19624c753120",
+  "serialNumber": "urn:uuid:fc2ff64a-7e74-4e30-917e-49ac282673a2",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-01-22T09:53:48.138940+00:00",
+    "timestamp": "2023-01-22T12:07:49.910306+00:00",
     "tools": [
       {
         "vendor": "CycloneDX",
@@ -56,21 +56,21 @@
   "components": [
     {
       "type": "library",
-      "bom-ref": "cf69b208-9ba9-49b2-b580-1adae6491ed5",
+      "bom-ref": "693794c0-ad2f-46ee-bce3-0057b59ea23c",
       "name": "liitos",
       "version": "2023.1.21",
       "purl": "pkg:pypi/liitos@2023.1.21"
     },
     {
       "type": "library",
-      "bom-ref": "d0c8d34f-b721-41de-8435-169772677031",
+      "bom-ref": "893c894b-84a4-48a4-859f-7b11008f7969",
       "name": "navigaattori",
       "version": "2023.1.17",
       "purl": "pkg:pypi/navigaattori@2023.1.17"
     },
     {
       "type": "library",
-      "bom-ref": "57688327-0532-43b4-989f-65a6c3e638d6",
+      "bom-ref": "94470320-72fc-4724-ac78-5230a8e53f11",
       "name": "pikepdf",
       "version": "6.2.8.post1",
       "purl": "pkg:pypi/pikepdf@6.2.8.post1"
@@ -78,15 +78,15 @@
   ],
   "dependencies": [
     {
-      "ref": "cf69b208-9ba9-49b2-b580-1adae6491ed5",
+      "ref": "693794c0-ad2f-46ee-bce3-0057b59ea23c",
       "dependsOn": []
     },
     {
-      "ref": "d0c8d34f-b721-41de-8435-169772677031",
+      "ref": "893c894b-84a4-48a4-859f-7b11008f7969",
       "dependsOn": []
     },
     {
-      "ref": "57688327-0532-43b4-989f-65a6c3e638d6",
+      "ref": "94470320-72fc-4724-ac78-5230a8e53f11",
       "dependsOn": []
     }
   ]
