@@ -50,7 +50,7 @@ def log_subprocess_output(pipe, prefix: str):
 def get_producer():
     """Assume the producer is fixed and retrieve the terse version repr from a --version call."""
     version_text = 'Version unknown'
-    proc = subprocess.Popen(['lualatex', '--version'], stdout=subprocess.PIPE)
+    proc = subprocess.Popen(['lualatex', '--version'], stdout=subprocess.PIPE)  # nosec B603, B607
     for line in io.TextIOWrapper(proc.stdout, encoding='utf-8'):
         if line.startswith('This is LuaHBTeX, Version '):
             version_text = line.rstrip()
@@ -137,8 +137,8 @@ def timestamp_patch(create_date: str, modify_date: str, path: PathLike) -> None:
     exiftool_command = f'exiftool "-CreateDate={create_date}" "-ModifyDate={modify_date}" {path}'
     log.info(LOG_SEPARATOR)
     log.info(f'{exiftool_command} ...')
-    process = subprocess.Popen(  # nosec B603
-        exiftool_command, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, shell=True
+    process = subprocess.Popen(
+        exiftool_command, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, shell=True  # nosec B602
     )
     with process.stdout:
         log_subprocess_output(process.stdout, 'timestamp-patch')
@@ -154,8 +154,8 @@ def pdf_attributes(path: PathLike) -> None:
     """Let exiftool assess the attributes."""
     exiftool_command = f'exiftool {path}'
     log.info(f'{exiftool_command} ...')
-    process = subprocess.Popen(  # nosec B603
-        exiftool_command, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, shell=True
+    process = subprocess.Popen(
+        exiftool_command, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, shell=True  # nosec B602
     )
     with process.stdout:
         log_subprocess_output(process.stdout, 'meta-state')
@@ -171,8 +171,8 @@ def pdf_info(path: PathLike) -> None:
     """Let pdfinfo assess some attributes."""
     pdfinfo_command = f'pdfinfo {path}'
     log.info(f'{pdfinfo_command} ...')
-    process = subprocess.Popen(  # nosec B603
-        pdfinfo_command, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, shell=True
+    process = subprocess.Popen(
+        pdfinfo_command, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, shell=True  # nosec B602
     )
     with process.stdout:
         log_subprocess_output(process.stdout, 'pdf-info')
