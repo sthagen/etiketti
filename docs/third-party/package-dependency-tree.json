@@ -266,5 +266,49 @@
                 ]
             }
         ]
+    },
+    {
+        "key": "pikepdf",
+        "package_name": "pikepdf",
+        "installed_version": "6.2.8.post1",
+        "required_version": "6.2.8.post1",
+        "dependencies": [
+            {
+                "key": "deprecation",
+                "package_name": "deprecation",
+                "installed_version": "2.1.0",
+                "required_version": "Any",
+                "dependencies": [
+                    {
+                        "key": "packaging",
+                        "package_name": "packaging",
+                        "installed_version": "23.0",
+                        "required_version": "Any",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "lxml",
+                "package_name": "lxml",
+                "installed_version": "4.9.2",
+                "required_version": ">=4.8",
+                "dependencies": []
+            },
+            {
+                "key": "packaging",
+                "package_name": "packaging",
+                "installed_version": "23.0",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "pillow",
+                "package_name": "Pillow",
+                "installed_version": "9.4.0",
+                "required_version": ">=9.0",
+                "dependencies": []
+            }
+        ]
     }
 ]

@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/etiketti/blob/default/sbom.json) with SHA256 checksum ([46b1ed38 ...](https://git.sr.ht/~sthagen/etiketti/blob/default/sbom.json.sha256 "sha256:46b1ed38393f8d347ab4a59ec56d454de4c42e48ac2bf05d7525a16d8702a66d")).
-<!--[[[end]]] (checksum: 97145aa6b855e1abe38ebb2fd02055f5)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/etiketti/blob/default/sbom.json) with SHA256 checksum ([45ed7cc2 ...](https://git.sr.ht/~sthagen/etiketti/blob/default/sbom.json.sha256 "sha256:45ed7cc27fc88cd95c7e01a7e03f957de0741d808a3b64a6da0cf72ca0c397f2")).
+<!--[[[end]]] (checksum: 2565c912344149e55562e5d3a9693459)-->
 ## Licenses 
 
 JSON files with complete license info of: [direct dependencies](direct-dependency-licenses.json) | [all dependencies](all-dependency-licenses.json)
@@ -10,11 +10,12 @@ JSON files with complete license info of: [direct dependencies](direct-dependenc
 ### Direct Dependencies
 
 <!--[[[fill direct_dependencies_table()]]]-->
-| Name                                                                                | Version                                                       | License     | Author       | Description (from packaging data)                        |
-|:------------------------------------------------------------------------------------|:--------------------------------------------------------------|:------------|:-------------|:---------------------------------------------------------|
-| [liitos](https://git.sr.ht/~sthagen/liitos/tree/default/item/README.md)             | [2023.1.21](https://pypi.org/project/liitos/2023.1.21/)       | MIT License | Stefan Hagen | Splice (Finnish liitos) contributions.                   |
-| [navigaattori](https://git.sr.ht/~sthagen/navigaattori/tree/default/item/README.md) | [2023.1.17](https://pypi.org/project/navigaattori/2023.1.17/) | MIT License | Stefan Hagen | Navigator (Finnish: navigaattori) guided by conventions. |
-<!--[[[end]]] (checksum: de511f35ec36d305489b180d314d6d24)-->
+| Name                                                                                | Version                                                       | License                              | Author          | Description (from packaging data)                        |
+|:------------------------------------------------------------------------------------|:--------------------------------------------------------------|:-------------------------------------|:----------------|:---------------------------------------------------------|
+| [liitos](https://git.sr.ht/~sthagen/liitos/tree/default/item/README.md)             | [2023.1.21](https://pypi.org/project/liitos/2023.1.21/)       | MIT License                          | Stefan Hagen    | Splice (Finnish liitos) contributions.                   |
+| [navigaattori](https://git.sr.ht/~sthagen/navigaattori/tree/default/item/README.md) | [2023.1.17](https://pypi.org/project/navigaattori/2023.1.17/) | MIT License                          | Stefan Hagen    | Navigator (Finnish: navigaattori) guided by conventions. |
+| [pikepdf](https://github.com/pikepdf/pikepdf)                                       | [6.2.8.post1](https://pypi.org/project/pikepdf/6.2.8.post1/)  | Mozilla Public License 2.0 (MPL 2.0) | James R. Barlow | Read and write PDFs with Python, powered by qpdf         |
+<!--[[[end]]] (checksum: 624b2945314d6a4194bbaa9799251554)-->
 
 ### Indirect Dependencies
 
@@ -84,5 +85,11 @@ navigaattori==2023.1.17
     - future [required: Any, installed: 0.18.3]
   - typer [required: >=0.7.0, installed: 0.7.0]
     - click [required: >=7.1.1,<9.0.0, installed: 8.1.3]
+pikepdf==6.2.8.post1
+  - deprecation [required: Any, installed: 2.1.0]
+    - packaging [required: Any, installed: 23.0]
+  - lxml [required: >=4.8, installed: 4.9.2]
+  - packaging [required: Any, installed: 23.0]
+  - Pillow [required: >=9.0, installed: 9.4.0]
 ````
-<!--[[[end]]] (checksum: 6c86266efb379970882d704cd0271bea)-->
+<!--[[[end]]] (checksum: d2450e6590d87fe961aad3ed1ba7c3b0)-->
