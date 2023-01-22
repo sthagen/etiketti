@@ -4,7 +4,7 @@ Label (Finnish: etiketti) some files.
 
 [License: MPL-2.0](https://git.sr.ht/~sthagen/etiketti/tree/default/item/LICENSE) only for the pikepedf dependency - all contributions added are licensed per MIT.
 
-Third party dependencies are documented in the folder [third-party](third-party/README.md).
+Third party dependencies are documented in the folder [third-party](docs/third-party/README.md).
 
 [![version](https://img.shields.io/pypi/v/etiketti.svg?style=flat)](https://pypi.python.org/pypi/etiketti/)
 [![downloads](https://pepy.tech/badge/etiketti/month)](https://pepy.tech/project/etiketti)
