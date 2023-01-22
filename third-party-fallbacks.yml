@@ -12,6 +12,7 @@ urls:
   mdurl: https://github.com/executablebooks/mdurl/blob/master/README.md
   navigaattori: https://git.sr.ht/~sthagen/navigaattori/tree/default/item/README.md
   numcodecs: https://github.com/zarr-developers/numcodecs/blob/main/README.rst
+  packaging: https://github.com/pypa/packaging/blob/main/README.rst
   pandoc: https://github.com/boisgera/pandoc/blob/master/README.md
   pyparsing: https://github.com/pyparsing/pyparsing/blob/master/README.rst
   rtoml: https://github.com/samuelcolvin/rtoml/blob/main/README.md
