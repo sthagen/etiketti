@@ -1,0 +1,97 @@
+"""Command line interface for labeling."""
+import argparse
+import datetime as dti
+import hashlib
+import io
+import logging
+import os
+import pathlib
+import platform
+import shutil
+import subprocess  # nosec B404
+import sys
+import uuid
+import warnings
+from typing import Any, Callable, no_type_check
+
+import etiketti.implementation as impl
+from etiketti import APP_ALIAS, APP_NAME, CONFIG_PATH_STRING, SOURCE_NAME_PATH_STRING, TARGET_NAME_PATH_STRING, log
+
+
+def parse_request(argv: list[str]) -> int | argparse.Namespace:
+    """DRY."""
+    parser = argparse.ArgumentParser(
+        prog=APP_ALIAS, description=APP_NAME, formatter_class=argparse.RawTextHelpFormatter
+    )
+    parser.add_argument(
+        '--in-path',
+        '-i',
+        dest='in_pdf',
+        default='',
+        help='input file path to pdf file to label',
+        required=False,
+    )
+    parser.add_argument(
+        'in_pdf_pos',
+        nargs='?',
+        default=SOURCE_NAME_PATH_STRING,
+        help='input file path to pdf file to label',
+    )
+    parser.add_argument(
+        '--out-path',
+        '-o',
+        dest='out_pdf',
+        default=TARGET_NAME_PATH_STRING,
+        help='output path for resulting labeled pdf file',
+        required=False,
+    )
+    parser.add_argument(
+        '--config',
+        '-c',
+        dest='cfg_path',
+        default=CONFIG_PATH_STRING,
+        help='configuration file for label context data',
+        required=False,
+    )
+    parser.add_argument(
+        '--enforce',
+        '-e',
+        dest='enforce',
+        default=False,
+        action='store_true',
+        help='enforce labels by overwriting the source file',
+        required=False,
+    )
+
+    if not argv:
+        parser.print_help()
+        return 0
+
+    options = parser.parse_args(argv)
+
+    if not options.in_pdf:
+        if options.in_pdf_pos:
+            options.in_pdf = options.in_pdf_pos
+        else:
+            options.in_pdf = SOURCE_NAME_PATH_STRING
+
+    in_pdf = pathlib.Path(options.in_pdf)
+    if in_pdf.exists():
+        if in_pdf.is_file():
+            cfg_path = pathlib.Path(options.cfg_path)
+            if cfg_path.exists():
+                if cfg_path.is_file():
+                    return options
+                parser.error(f'configuration path ({cfg_path}) is not a file')
+            parser.error(f'configuration path ({cfg_path}) does not exist')
+        parser.error(f'requested pdf at ({in_pdf}) is not a file')
+    parser.error(f'requested pdf at ({in_pdf}) does not exist')
+
+
+def app(argv: list[str] | None = None) -> int:
+    """Delegate processing to functional module."""
+    argv = sys.argv[1:] if argv is None else argv
+    options = parse_request(argv)
+    if isinstance(options, int):
+        return 0
+    return impl.patch(options)
