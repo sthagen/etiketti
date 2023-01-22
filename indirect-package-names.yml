@@ -1,11 +1,14 @@
 ---
 packages:
+- Pillow
 - click
+- deprecation
 - foran
 - future
 - gitdb
 - lxml
 - msgspec
+- packaging
 - psutil
 - py-cpuinfo
 - smmap
