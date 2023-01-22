@@ -71,11 +71,11 @@ def hash_file(path: pathlib.Path, hasher: Callable[..., Any] | None = None) -> s
     """Return the SHA512 hex digest of the data from file."""
     if hasher is None:
         hasher = hashlib.sha512
-    hash = hasher()
+    the_hash = hasher()
     with open(path, 'rb') as handle:
         while chunk := handle.read(CHUNK_SIZE):
-            hash.update(chunk)
-    return hash.hexdigest()
+            the_hash.update(chunk)
+    return the_hash.hexdigest()
 
 
 def load_label_context(path: PathLike) -> ContextType:
