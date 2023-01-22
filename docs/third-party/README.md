@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/etiketti/blob/default/sbom.json) with SHA256 checksum ([0a7f40a5 ...](https://git.sr.ht/~sthagen/etiketti/blob/default/sbom.json.sha256 "sha256:0a7f40a5e98804c59e5c4c2694ad075d82876e9eb15d7aa22ba47783849763e6")).
-<!--[[[end]]] (checksum: 5028cdf36e0fdeff28951623026a9445)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/etiketti/blob/default/sbom.json) with SHA256 checksum ([46b1ed38 ...](https://git.sr.ht/~sthagen/etiketti/blob/default/sbom.json.sha256 "sha256:46b1ed38393f8d347ab4a59ec56d454de4c42e48ac2bf05d7525a16d8702a66d")).
+<!--[[[end]]] (checksum: 97145aa6b855e1abe38ebb2fd02055f5)-->
 ## Licenses 
 
 JSON files with complete license info of: [direct dependencies](direct-dependency-licenses.json) | [all dependencies](all-dependency-licenses.json)
@@ -10,11 +10,11 @@ JSON files with complete license info of: [direct dependencies](direct-dependenc
 ### Direct Dependencies
 
 <!--[[[fill direct_dependencies_table()]]]-->
-| Name         | Version                                                       | License     | Author  | Description (from packaging data)                        |
-|:-------------|:--------------------------------------------------------------|:------------|:--------|:---------------------------------------------------------|
-| liitos       | [2023.1.21](https://pypi.org/project/liitos/2023.1.21/)       | MIT License | UNKNOWN | Splice (Finnish liitos) contributions.                   |
-| navigaattori | [2023.1.17](https://pypi.org/project/navigaattori/2023.1.17/) | MIT License | UNKNOWN | Navigator (Finnish: navigaattori) guided by conventions. |
-<!--[[[end]]] (checksum: 9ea38defa223f6b9f32fdf078082e637)-->
+| Name                                                                                | Version                                                       | License     | Author       | Description (from packaging data)                        |
+|:------------------------------------------------------------------------------------|:--------------------------------------------------------------|:------------|:-------------|:---------------------------------------------------------|
+| [liitos](https://git.sr.ht/~sthagen/liitos/tree/default/item/README.md)             | [2023.1.21](https://pypi.org/project/liitos/2023.1.21/)       | MIT License | Stefan Hagen | Splice (Finnish liitos) contributions.                   |
+| [navigaattori](https://git.sr.ht/~sthagen/navigaattori/tree/default/item/README.md) | [2023.1.17](https://pypi.org/project/navigaattori/2023.1.17/) | MIT License | Stefan Hagen | Navigator (Finnish: navigaattori) guided by conventions. |
+<!--[[[end]]] (checksum: de511f35ec36d305489b180d314d6d24)-->
 
 ### Indirect Dependencies
 
