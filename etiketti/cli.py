@@ -76,6 +76,7 @@ def parse_request(argv: list[str]) -> int | argparse.Namespace:
     options = parser.parse_args(argv)
 
     if options.version_request:
+        print(f'{APP_NAME} version {APP_VERSION}')
         return 0
 
     if not options.in_pdf:
