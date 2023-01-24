@@ -4,7 +4,14 @@ import pathlib
 import sys
 
 import etiketti.implementation as impl
-from etiketti import APP_ALIAS, APP_NAME, CONFIG_PATH_STRING, SOURCE_NAME_PATH_STRING, TARGET_NAME_PATH_STRING
+from etiketti import (
+    APP_ALIAS,
+    APP_NAME,
+    APP_VERSION,
+    CONFIG_PATH_STRING,
+    SOURCE_NAME_PATH_STRING,
+    TARGET_NAME_PATH_STRING,
+)
 
 
 def parse_request(argv: list[str]) -> int | argparse.Namespace:
@@ -51,12 +58,25 @@ def parse_request(argv: list[str]) -> int | argparse.Namespace:
         help='enforce labels by overwriting the source file',
         required=False,
     )
+    parser.add_argument(
+        '--version',
+        '-V',
+        dest='version_request',
+        default=False,
+        action='store_true',
+        help='show version of the app and exit',
+        required=False,
+    )
 
     if not argv:
+        print(f'{APP_NAME} version {APP_VERSION}')
         parser.print_help()
         return 0
 
     options = parser.parse_args(argv)
+
+    if options.version_request:
+        return 0
 
     if not options.in_pdf:
         if options.in_pdf_pos:

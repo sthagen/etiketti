@@ -14,8 +14,6 @@ except ModuleNotFoundError:
     CREATOR_NAME = 'liitos'
     CREATOR_VERSION = '42'
 
-from pikepdf import Pdf
-
 from etiketti.discover import (
     extract_author,
     extract_meta_parts,
@@ -112,6 +110,8 @@ def pdf_info(path: PathLike) -> None:
 @no_type_check
 def cross_correlate(source: PathLike, conventions: ConventionsType, context: ContextType, target: PathLike) -> None:
     """Load information per conventions and mix with source to create target pdf."""
+    from pikepdf import Pdf  # Workaround to avoid the start-up log of backend in version calls etc.
+
     source = pathlib.Path(source)
     target = pathlib.Path(target)
     backend_version = 'cf. pdf.Producer'  # backend_version  # 'putki 2023.1.1'
