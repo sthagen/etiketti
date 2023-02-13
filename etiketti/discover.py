@@ -65,7 +65,7 @@ def extract_author(path: PathLike) -> str:
     entries = approvals['approvals']
     for entry in entries:
         if entry.get('role').lower() == 'author':
-            return entry.get('name', '')
+            return entry.get('name', '') or ''
     return ''
 
 
@@ -77,7 +77,7 @@ def extract_meta_parts(path: PathLike) -> tuple[str, str, str]:
     title = mapping.get('title', '')
     subject = mapping.get('header_id', '')
     keywords = mapping.get('keywords_csl', '')
-    return title, subject, keywords
+    return title or '', subject or '', keywords or ''
 
 
 def load_conventions(context: ContextType, path: PathLike) -> ConventionsType:
