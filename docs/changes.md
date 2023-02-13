@@ -1,5 +1,9 @@
 # Changes
 
+## 2023.2.13
+
+* Fix: Unwrapped meta data loader trips of pdf writer (<https://todo.sr.ht/~sthagen/etiketti/2>)
+
 ## 2023.1.25
 
 * Fixed failed CPSR coding (version request now showing the version)
