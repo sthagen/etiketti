@@ -12,28 +12,28 @@
     "Version": "6.0"
   },
   {
-    "Author": "UNKNOWN",
+    "Author": "Stefan Hagen <stefan@hagen.link>",
     "Description": "Splice (Finnish liitos) contributions.",
     "License": "MIT License",
-    "LicenseFile": "/Users/ruth/.pyenv/versions/3.10.9/envs/etiketti-3-10-9/lib/python3.10/site-packages/liitos-2023.1.21.dist-info/LICENSE",
+    "LicenseFile": "/Users/ruth/.pyenv/versions/3.10.9/envs/etiketti-3-10-9/lib/python3.10/site-packages/liitos-2023.6.17.dist-info/LICENSE",
     "LicenseText": "MIT License\n\nCopyright (c) 2023 Stefan Hagen\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
     "Name": "liitos",
     "NoticeFile": "UNKNOWN",
     "NoticeText": "UNKNOWN",
-    "URL": "UNKNOWN",
-    "Version": "2023.1.21"
+    "URL": "https://git.sr.ht/~sthagen/liitos",
+    "Version": "2023.6.17"
   },
   {
-    "Author": "UNKNOWN",
+    "Author": "Stefan Hagen <stefan@hagen.link>",
     "Description": "Navigator (Finnish: navigaattori) guided by conventions.",
     "License": "MIT License",
-    "LicenseFile": "/Users/ruth/.pyenv/versions/3.10.9/envs/etiketti-3-10-9/lib/python3.10/site-packages/navigaattori-2023.1.17.dist-info/LICENSE",
+    "LicenseFile": "/Users/ruth/.pyenv/versions/3.10.9/envs/etiketti-3-10-9/lib/python3.10/site-packages/navigaattori-2023.6.18.dist-info/LICENSE",
     "LicenseText": "MIT License\n\nCopyright (c) 2023 Stefan Hagen\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
     "Name": "navigaattori",
     "NoticeFile": "UNKNOWN",
     "NoticeText": "UNKNOWN",
-    "URL": "UNKNOWN",
-    "Version": "2023.1.17"
+    "URL": "https://git.sr.ht/~sthagen/navigaattori",
+    "Version": "2023.6.18"
   },
   {
     "Author": "James R. Barlow",

@@ -2,8 +2,8 @@
     {
         "key": "liitos",
         "package_name": "liitos",
-        "installed_version": "2023.1.21",
-        "required_version": "2023.1.21",
+        "installed_version": "2023.6.17",
+        "required_version": "2023.6.17",
         "dependencies": [
             {
                 "key": "foran",
@@ -59,10 +59,17 @@
                 "dependencies": []
             },
             {
+                "key": "shellingham",
+                "package_name": "shellingham",
+                "installed_version": "1.5.0.post1",
+                "required_version": ">=1.5.0.post1",
+                "dependencies": []
+            },
+            {
                 "key": "taksonomia",
                 "package_name": "taksonomia",
-                "installed_version": "2023.1.10",
-                "required_version": ">=2023.1.10",
+                "installed_version": "2023.6.18",
+                "required_version": ">=2023.1.24",
                 "dependencies": [
                     {
                         "key": "lxml",
@@ -74,15 +81,15 @@
                     {
                         "key": "msgspec",
                         "package_name": "msgspec",
-                        "installed_version": "0.12.0",
-                        "required_version": ">=0.12.0",
+                        "installed_version": "0.16.0",
+                        "required_version": ">=0.16.0",
                         "dependencies": []
                     },
                     {
                         "key": "psutil",
                         "package_name": "psutil",
-                        "installed_version": "5.9.4",
-                        "required_version": ">=5.9.4",
+                        "installed_version": "5.9.5",
+                        "required_version": ">=5.9.5",
                         "dependencies": []
                     },
                     {
@@ -104,13 +111,13 @@
             {
                 "key": "treelib",
                 "package_name": "treelib",
-                "installed_version": "1.6.1",
-                "required_version": ">=1.6.1",
+                "installed_version": "1.6.4",
+                "required_version": ">=1.6.4",
                 "dependencies": [
                     {
-                        "key": "future",
-                        "package_name": "future",
-                        "installed_version": "0.18.3",
+                        "key": "six",
+                        "package_name": "six",
+                        "installed_version": "1.16.0",
                         "required_version": "Any",
                         "dependencies": []
                     }
@@ -136,8 +143,8 @@
     {
         "key": "navigaattori",
         "package_name": "navigaattori",
-        "installed_version": "2023.1.17",
-        "required_version": "2023.1.17",
+        "installed_version": "2023.6.18",
+        "required_version": "2023.6.18",
         "dependencies": [
             {
                 "key": "foran",
@@ -195,7 +202,7 @@
             {
                 "key": "taksonomia",
                 "package_name": "taksonomia",
-                "installed_version": "2023.1.10",
+                "installed_version": "2023.6.18",
                 "required_version": ">=2022.12.7",
                 "dependencies": [
                     {
@@ -208,15 +215,15 @@
                     {
                         "key": "msgspec",
                         "package_name": "msgspec",
-                        "installed_version": "0.12.0",
-                        "required_version": ">=0.12.0",
+                        "installed_version": "0.16.0",
+                        "required_version": ">=0.16.0",
                         "dependencies": []
                     },
                     {
                         "key": "psutil",
                         "package_name": "psutil",
-                        "installed_version": "5.9.4",
-                        "required_version": ">=5.9.4",
+                        "installed_version": "5.9.5",
+                        "required_version": ">=5.9.5",
                         "dependencies": []
                     },
                     {
@@ -238,13 +245,13 @@
             {
                 "key": "treelib",
                 "package_name": "treelib",
-                "installed_version": "1.6.1",
+                "installed_version": "1.6.4",
                 "required_version": ">=1.6.1",
                 "dependencies": [
                     {
-                        "key": "future",
-                        "package_name": "future",
-                        "installed_version": "0.18.3",
+                        "key": "six",
+                        "package_name": "six",
+                        "installed_version": "1.16.0",
                         "required_version": "Any",
                         "dependencies": []
                     }
@@ -282,7 +289,7 @@
                     {
                         "key": "packaging",
                         "package_name": "packaging",
-                        "installed_version": "23.0",
+                        "installed_version": "23.1",
                         "required_version": "Any",
                         "dependencies": []
                     }
@@ -298,7 +305,7 @@
             {
                 "key": "packaging",
                 "package_name": "packaging",
-                "installed_version": "23.0",
+                "installed_version": "23.1",
                 "required_version": "Any",
                 "dependencies": []
             },
