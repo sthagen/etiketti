@@ -1,0 +1,104 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:335d1b36-4b56-46bc-bf64-728cb93eb98e",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-06-18T12:36:06.380636+00:00",
+    "tools": [
+      {
+        "vendor": "CycloneDX",
+        "name": "cyclonedx-bom",
+        "version": "3.11.0"
+      },
+      {
+        "vendor": "CycloneDX",
+        "name": "cyclonedx-python-lib",
+        "version": "3.1.5",
+        "externalReferences": [
+          {
+            "url": "https://github.com/CycloneDX/cyclonedx-python-lib/actions",
+            "type": "build-system"
+          },
+          {
+            "url": "https://pypi.org/project/cyclonedx-python-lib/",
+            "type": "distribution"
+          },
+          {
+            "url": "https://cyclonedx.github.io/cyclonedx-python-lib/",
+            "type": "documentation"
+          },
+          {
+            "url": "https://github.com/CycloneDX/cyclonedx-python-lib/issues",
+            "type": "issue-tracker"
+          },
+          {
+            "url": "https://github.com/CycloneDX/cyclonedx-python-lib/blob/main/LICENSE",
+            "type": "license"
+          },
+          {
+            "url": "https://github.com/CycloneDX/cyclonedx-python-lib/blob/main/CHANGELOG.md",
+            "type": "release-notes"
+          },
+          {
+            "url": "https://github.com/CycloneDX/cyclonedx-python-lib",
+            "type": "vcs"
+          },
+          {
+            "url": "https://cyclonedx.org",
+            "type": "website"
+          }
+        ]
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "c047d1c8-158c-44e1-a66a-4a63f60c128f",
+      "name": "PyYAML",
+      "version": "6.0",
+      "purl": "pkg:pypi/pyyaml@6.0"
+    },
+    {
+      "type": "library",
+      "bom-ref": "b05526ba-3d08-44c0-b9bb-dfa93e4dbe8f",
+      "name": "liitos",
+      "version": "2023.6.17",
+      "purl": "pkg:pypi/liitos@2023.6.17"
+    },
+    {
+      "type": "library",
+      "bom-ref": "9671a657-d69b-498c-b247-4f266950f1ed",
+      "name": "navigaattori",
+      "version": "2023.6.18",
+      "purl": "pkg:pypi/navigaattori@2023.6.18"
+    },
+    {
+      "type": "library",
+      "bom-ref": "3e6a1b6d-3362-45ad-87a6-f8bff6b64eec",
+      "name": "pikepdf",
+      "version": "6.2.8.post1",
+      "purl": "pkg:pypi/pikepdf@6.2.8.post1"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "c047d1c8-158c-44e1-a66a-4a63f60c128f",
+      "dependsOn": []
+    },
+    {
+      "ref": "b05526ba-3d08-44c0-b9bb-dfa93e4dbe8f",
+      "dependsOn": []
+    },
+    {
+      "ref": "9671a657-d69b-498c-b247-4f266950f1ed",
+      "dependsOn": []
+    },
+    {
+      "ref": "3e6a1b6d-3362-45ad-87a6-f8bff6b64eec",
+      "dependsOn": []
+    }
+  ]
+}

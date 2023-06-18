@@ -1,0 +1,98 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+DocumentNamespace: https://cyclonedx/335d1b36-4b56-46bc-bf64-728cb93eb98e_1
+DocumentName: From-Cyclone-DX
+SPDXID: SPDXRef-DOCUMENT
+
+## Creation Information
+Creator: Tool: CycloneDX:cyclonedx-bom-3.11.0
+Creator: Tool: CycloneDX:cyclonedx-python-lib-3.1.5
+Creator: Tool: CycloneToSpdx-0.1.4
+Created: 2023-06-18T12:36:06Z
+CreatorComment: <text>Converted from CycloneDX spec version 1.4</text>
+LicenseListVersion: 3.20
+## Annotations
+Annotator: Tool: CycloneToSpdx
+AnnotationDate: 2023-06-18T12:36:08Z
+AnnotationComment: <text>MISSING_CDX_PROPERTY:extensions={}</text>
+AnnotationType: OTHER
+SPDXREF: SPDXRef-DOCUMENT
+## Relationships
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-3e6a1b6d-3362-45ad-87a6-f8bff6b64eec
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-9671a657-d69b-498c-b247-4f266950f1ed
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-b05526ba-3d08-44c0-b9bb-dfa93e4dbe8f
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-c047d1c8-158c-44e1-a66a-4a63f60c128f
+
+## Package Information
+PackageName: PyYAML
+SPDXID: SPDXRef-c047d1c8-158c-44e1-a66a-4a63f60c128f
+PackageVersion: 6.0
+PackageDownloadLocation: NOASSERTION
+PrimaryPackagePurpose: LIBRARY
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/pyyaml@6.0
+## Annotations
+Annotator: Tool: CycloneToSpdx
+AnnotationDate: 2023-06-18T12:36:08Z
+AnnotationComment: <text>MISSING_CDX_PROPERTY:componentType="LIBRARY"</text>
+AnnotationType: OTHER
+SPDXREF: SPDXRef-c047d1c8-158c-44e1-a66a-4a63f60c128f
+FilesAnalyzed: false
+
+## Package Information
+PackageName: liitos
+SPDXID: SPDXRef-b05526ba-3d08-44c0-b9bb-dfa93e4dbe8f
+PackageVersion: 2023.6.17
+PackageDownloadLocation: NOASSERTION
+PrimaryPackagePurpose: LIBRARY
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/liitos@2023.6.17
+## Annotations
+Annotator: Tool: CycloneToSpdx
+AnnotationDate: 2023-06-18T12:36:08Z
+AnnotationComment: <text>MISSING_CDX_PROPERTY:componentType="LIBRARY"</text>
+AnnotationType: OTHER
+SPDXREF: SPDXRef-b05526ba-3d08-44c0-b9bb-dfa93e4dbe8f
+FilesAnalyzed: false
+
+## Package Information
+PackageName: navigaattori
+SPDXID: SPDXRef-9671a657-d69b-498c-b247-4f266950f1ed
+PackageVersion: 2023.6.18
+PackageDownloadLocation: NOASSERTION
+PrimaryPackagePurpose: LIBRARY
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/navigaattori@2023.6.18
+## Annotations
+Annotator: Tool: CycloneToSpdx
+AnnotationDate: 2023-06-18T12:36:08Z
+AnnotationComment: <text>MISSING_CDX_PROPERTY:componentType="LIBRARY"</text>
+AnnotationType: OTHER
+SPDXREF: SPDXRef-9671a657-d69b-498c-b247-4f266950f1ed
+FilesAnalyzed: false
+
+## Package Information
+PackageName: pikepdf
+SPDXID: SPDXRef-3e6a1b6d-3362-45ad-87a6-f8bff6b64eec
+PackageVersion: 6.2.8.post1
+PackageDownloadLocation: NOASSERTION
+PrimaryPackagePurpose: LIBRARY
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/pikepdf@6.2.8.post1
+## Annotations
+Annotator: Tool: CycloneToSpdx
+AnnotationDate: 2023-06-18T12:36:08Z
+AnnotationComment: <text>MISSING_CDX_PROPERTY:componentType="LIBRARY"</text>
+AnnotationType: OTHER
+SPDXREF: SPDXRef-3e6a1b6d-3362-45ad-87a6-f8bff6b64eec
+FilesAnalyzed: false
+
+
