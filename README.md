@@ -11,6 +11,7 @@ Third party dependencies are documented in the folder [third-party](docs/docs/th
 [![wheel](https://img.shields.io/pypi/wheel/etiketti.svg?style=flat)](https://pypi.python.org/pypi/etiketti/)
 [![supported-versions](https://img.shields.io/pypi/pyversions/etiketti.svg?style=flat)](https://pypi.python.org/pypi/etiketti/)
 [![supported-implementations](https://img.shields.io/pypi/implementation/etiketti.svg?style=flat)](https://pypi.python.org/pypi/etiketti/)
+[![maintenance-status](https://img.shields.io/github/commit-activity/y/sthagen/etiketti.svg?style=flat)](https://git.sr.ht/~sthagen/etiketti/log)
 
 ## Documentation
 
