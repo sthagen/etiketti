@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/etiketti/blob/default/sbom/cdx.json) with SHA256 checksum ([4c32e5bb ...](https://git.sr.ht/~sthagen/etiketti/blob/default/sbom/cdx.json.sha256 "sha256:4c32e5bb106c16ce9e4525d55283044ef071744cdab194ecb5892e5d46c6cd93")).
-<!--[[[end]]] (checksum: c625270ea8b1bf06584f032dfcddaa72)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/etiketti/blob/default/sbom/cdx.json) with SHA256 checksum ([e5bc543c ...](https://git.sr.ht/~sthagen/etiketti/blob/default/sbom/cdx.json.sha256 "sha256:e5bc543cfcae8d06ac99884b2d14cc9662cc7c9c203d88801cd88acc47d123e1")).
+<!--[[[end]]] (checksum: 0ded22063eda6b6c001f4075ff07a0e1)-->
 ## Licenses 
 
 JSON files with complete license info of: [direct dependencies](direct-dependency-licenses.json) | [all dependencies](all-dependency-licenses.json)
@@ -55,7 +55,7 @@ Base graphviz file in dot format: [Trees of the direct dependencies](package-dep
 ````console
 liitos==2023.6.17
 ├── foran [required: >=2022.12.7, installed: 2022.12.7]
-│   ├── GitPython [required: >=3.1.29, installed: 3.1.30]
+│   ├── GitPython [required: >=3.1.29, installed: 3.1.32]
 │   │   └── gitdb [required: >=4.0.1,<5, installed: 4.0.10]
 │   │       └── smmap [required: >=3.0.1,<6, installed: 5.0.0]
 │   └── typer [required: >=0.7.0, installed: 0.7.0]
@@ -74,7 +74,7 @@ liitos==2023.6.17
     └── click [required: >=7.1.1,<9.0.0, installed: 8.1.3]
 navigaattori==2023.6.18
 ├── foran [required: >=2022.12.7, installed: 2022.12.7]
-│   ├── GitPython [required: >=3.1.29, installed: 3.1.30]
+│   ├── GitPython [required: >=3.1.29, installed: 3.1.32]
 │   │   └── gitdb [required: >=4.0.1,<5, installed: 4.0.10]
 │   │       └── smmap [required: >=3.0.1,<6, installed: 5.0.0]
 │   └── typer [required: >=0.7.0, installed: 0.7.0]
@@ -97,4 +97,4 @@ pikepdf==6.2.8.post1
 ├── packaging [required: Any, installed: 23.1]
 └── Pillow [required: >=9.0, installed: 9.4.0]
 ````
-<!--[[[end]]] (checksum: af635214098488ac81d59618701a0b2e)-->
+<!--[[[end]]] (checksum: 1cebceb4125b5d6684a4c01615385c5d)-->
