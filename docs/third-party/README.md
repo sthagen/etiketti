@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/etiketti/blob/default/sbom/cdx.json) with SHA256 checksum ([e5bc543c ...](https://git.sr.ht/~sthagen/etiketti/blob/default/sbom/cdx.json.sha256 "sha256:e5bc543cfcae8d06ac99884b2d14cc9662cc7c9c203d88801cd88acc47d123e1")).
-<!--[[[end]]] (checksum: 0ded22063eda6b6c001f4075ff07a0e1)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/etiketti/blob/default/sbom/cdx.json) with SHA256 checksum ([f1a6c524 ...](https://git.sr.ht/~sthagen/etiketti/blob/default/sbom/cdx.json.sha256 "sha256:f1a6c524daa166830fe795e62bab6977b907565af2ba9da9ee5d1f823b535be8")).
+<!--[[[end]]] (checksum: 420d9ea7a9f4f660c275122540cea337)-->
 ## Licenses 
 
 JSON files with complete license info of: [direct dependencies](direct-dependency-licenses.json) | [all dependencies](all-dependency-licenses.json)
@@ -23,21 +23,20 @@ JSON files with complete license info of: [direct dependencies](direct-dependenc
 <!--[[[fill indirect_dependencies_table()]]]-->
 | Name                                                   | Version                                                     | License                                            | Author                           | Description (from packaging data)                                                                                                         |
 |:-------------------------------------------------------|:------------------------------------------------------------|:---------------------------------------------------|:---------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------|
-| [Pillow](https://python-pillow.org)                    | [9.4.0](https://pypi.org/project/Pillow/9.4.0/)             | Historical Permission Notice and Disclaimer (HPND) | Alex Clark (PIL Fork Author)     | Python Imaging Library (Fork)                                                                                                             |
-| [click](https://palletsprojects.com/p/click/)          | [8.1.3](https://pypi.org/project/click/8.1.3/)              | BSD License                                        | Armin Ronacher                   | Composable command line interface toolkit                                                                                                 |
+| [Pillow](https://python-pillow.org)                    | [10.0.0](https://pypi.org/project/Pillow/10.0.0/)           | Historical Permission Notice and Disclaimer (HPND) | Jeffrey A. Clark (Alex)          | Python Imaging Library (Fork)                                                                                                             |
+| [click](https://palletsprojects.com/p/click/)          | [8.1.5](https://pypi.org/project/click/8.1.5/)              | BSD License                                        | UNKNOWN                          | Composable command line interface toolkit                                                                                                 |
 | [deprecation](http://deprecation.readthedocs.io/)      | [2.1.0](https://pypi.org/project/deprecation/2.1.0/)        | Apache Software License                            | Brian Curtin                     | A library to handle automated deprecations                                                                                                |
-| [foran](https://git.sr.ht/~sthagen/foran)              | [2022.12.7](https://pypi.org/project/foran/2022.12.7/)      | MIT License                                        | Stefan Hagen <stefan@hagen.link> | In front or behind (Danish: foran eller bagved)? Answering the question if a local repository status is in front of or behind its remote. |
-| [future](https://python-future.org)                    | [0.18.3](https://pypi.org/project/future/0.18.3/)           | MIT License                                        | Ed Schofield                     | Clean single-source support for Python 3 and 2                                                                                            |
+| [foran](https://git.sr.ht/~sthagen/foran)              | [2023.6.19](https://pypi.org/project/foran/2023.6.19/)      | MIT License                                        | Stefan Hagen <stefan@hagen.link> | In front or behind (Danish: foran eller bagved)? Answering the question if a local repository status is in front of or behind its remote. |
 | [gitdb](https://github.com/gitpython-developers/gitdb) | [4.0.10](https://pypi.org/project/gitdb/4.0.10/)            | BSD License                                        | Sebastian Thiel                  | Git Object Database                                                                                                                       |
-| [lxml](https://lxml.de/)                               | [4.9.2](https://pypi.org/project/lxml/4.9.2/)               | BSD License                                        | lxml dev team                    | Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.                                          |
-| [msgspec](https://jcristharif.com/msgspec/)            | [0.16.0](https://pypi.org/project/msgspec/0.16.0/)          | BSD License                                        | Jim Crist-Harif                  | A fast serialization and validation library, with builtin support for JSON, MessagePack, YAML, and TOML.                                  |
+| [lxml](https://lxml.de/)                               | [4.9.3](https://pypi.org/project/lxml/4.9.3/)               | BSD License                                        | lxml dev team                    | Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.                                          |
+| [msgspec](https://jcristharif.com/msgspec/)            | [0.17.0](https://pypi.org/project/msgspec/0.17.0/)          | BSD License                                        | Jim Crist-Harif                  | A fast serialization and validation library, with builtin support for JSON, MessagePack, YAML, and TOML.                                  |
 | [packaging](https://github.com/pypa/packaging)         | [23.1](https://pypi.org/project/packaging/23.1/)            | Apache Software License; BSD License               | Donald Stufft <donald@stufft.io> | Core utilities for Python packages                                                                                                        |
 | [psutil](https://github.com/giampaolo/psutil)          | [5.9.5](https://pypi.org/project/psutil/5.9.5/)             | BSD License                                        | Giampaolo Rodola                 | Cross-platform lib for process and system monitoring in Python.                                                                           |
 | [py-cpuinfo](https://github.com/workhorsy/py-cpuinfo)  | [9.0.0](https://pypi.org/project/py-cpuinfo/9.0.0/)         | MIT License                                        | Matthew Brennan Jones            | Get CPU info with pure Python                                                                                                             |
 | [smmap](https://github.com/gitpython-developers/smmap) | [5.0.0](https://pypi.org/project/smmap/5.0.0/)              | BSD License                                        | Sebastian Thiel                  | A pure Python implementation of a sliding window memory map manager                                                                       |
 | [taksonomia](https://git.sr.ht/~sthagen/taksonomia)    | [2023.6.18](https://pypi.org/project/taksonomia/2023.6.18/) | MIT License                                        | Stefan Hagen <stefan@hagen.link> | Taxonomy (Finnish: taksonomia) of a folder tree, guided by conventions.                                                                   |
 | [treelib](https://github.com/caesar0301/treelib)       | [1.6.4](https://pypi.org/project/treelib/1.6.4/)            | Apache Software License                            | Xiaming Chen                     | A Python 2/3 implementation of tree structure.                                                                                            |
-<!--[[[end]]] (checksum: 3332a2c299272507d72e3b9b0e2faaca)-->
+<!--[[[end]]] (checksum: a6a45f0071972e2c900e6e6ea5f74430)-->
 
 ## Dependency Tree(s)
 
@@ -54,47 +53,51 @@ Base graphviz file in dot format: [Trees of the direct dependencies](package-dep
 <!--[[[fill dependency_tree_console_text()]]]-->
 ````console
 liitos==2023.6.17
-├── foran [required: >=2022.12.7, installed: 2022.12.7]
-│   ├── GitPython [required: >=3.1.29, installed: 3.1.32]
+├── foran [required: >=2022.12.7, installed: 2023.6.19]
+│   ├── GitPython [required: >=3.1.31, installed: 3.1.32]
 │   │   └── gitdb [required: >=4.0.1,<5, installed: 4.0.10]
 │   │       └── smmap [required: >=3.0.1,<6, installed: 5.0.0]
-│   └── typer [required: >=0.7.0, installed: 0.7.0]
-│       └── click [required: >=7.1.1,<9.0.0, installed: 8.1.3]
+│   └── typer [required: >=0.9.0, installed: 0.9.0]
+│       ├── click [required: >=7.1.1,<9.0.0, installed: 8.1.5]
+│       └── typing-extensions [required: >=3.7.4.3, installed: 4.7.1]
 ├── PyYAML [required: >=6.0, installed: 6.0]
 ├── shellingham [required: >=1.5.0.post1, installed: 1.5.0.post1]
 ├── taksonomia [required: >=2023.1.24, installed: 2023.6.18]
-│   ├── lxml [required: >=4.9.2, installed: 4.9.2]
-│   ├── msgspec [required: >=0.16.0, installed: 0.16.0]
+│   ├── lxml [required: >=4.9.2, installed: 4.9.3]
+│   ├── msgspec [required: >=0.16.0, installed: 0.17.0]
 │   ├── psutil [required: >=5.9.5, installed: 5.9.5]
 │   ├── py-cpuinfo [required: >=9.0.0, installed: 9.0.0]
 │   └── PyYAML [required: >=6.0, installed: 6.0]
 ├── treelib [required: >=1.6.4, installed: 1.6.4]
 │   └── six [required: Any, installed: 1.16.0]
-└── typer [required: >=0.7.0, installed: 0.7.0]
-    └── click [required: >=7.1.1,<9.0.0, installed: 8.1.3]
+└── typer [required: >=0.7.0, installed: 0.9.0]
+    ├── click [required: >=7.1.1,<9.0.0, installed: 8.1.5]
+    └── typing-extensions [required: >=3.7.4.3, installed: 4.7.1]
 navigaattori==2023.6.18
-├── foran [required: >=2022.12.7, installed: 2022.12.7]
-│   ├── GitPython [required: >=3.1.29, installed: 3.1.32]
+├── foran [required: >=2022.12.7, installed: 2023.6.19]
+│   ├── GitPython [required: >=3.1.31, installed: 3.1.32]
 │   │   └── gitdb [required: >=4.0.1,<5, installed: 4.0.10]
 │   │       └── smmap [required: >=3.0.1,<6, installed: 5.0.0]
-│   └── typer [required: >=0.7.0, installed: 0.7.0]
-│       └── click [required: >=7.1.1,<9.0.0, installed: 8.1.3]
+│   └── typer [required: >=0.9.0, installed: 0.9.0]
+│       ├── click [required: >=7.1.1,<9.0.0, installed: 8.1.5]
+│       └── typing-extensions [required: >=3.7.4.3, installed: 4.7.1]
 ├── PyYAML [required: >=6.0, installed: 6.0]
 ├── taksonomia [required: >=2022.12.7, installed: 2023.6.18]
-│   ├── lxml [required: >=4.9.2, installed: 4.9.2]
-│   ├── msgspec [required: >=0.16.0, installed: 0.16.0]
+│   ├── lxml [required: >=4.9.2, installed: 4.9.3]
+│   ├── msgspec [required: >=0.16.0, installed: 0.17.0]
 │   ├── psutil [required: >=5.9.5, installed: 5.9.5]
 │   ├── py-cpuinfo [required: >=9.0.0, installed: 9.0.0]
 │   └── PyYAML [required: >=6.0, installed: 6.0]
 ├── treelib [required: >=1.6.1, installed: 1.6.4]
 │   └── six [required: Any, installed: 1.16.0]
-└── typer [required: >=0.7.0, installed: 0.7.0]
-    └── click [required: >=7.1.1,<9.0.0, installed: 8.1.3]
+└── typer [required: >=0.7.0, installed: 0.9.0]
+    ├── click [required: >=7.1.1,<9.0.0, installed: 8.1.5]
+    └── typing-extensions [required: >=3.7.4.3, installed: 4.7.1]
 pikepdf==6.2.8.post1
 ├── deprecation [required: Any, installed: 2.1.0]
 │   └── packaging [required: Any, installed: 23.1]
-├── lxml [required: >=4.8, installed: 4.9.2]
+├── lxml [required: >=4.8, installed: 4.9.3]
 ├── packaging [required: Any, installed: 23.1]
-└── Pillow [required: >=9.0, installed: 9.4.0]
+└── Pillow [required: >=9.0, installed: 10.0.0]
 ````
-<!--[[[end]]] (checksum: 1cebceb4125b5d6684a4c01615385c5d)-->
+<!--[[[end]]] (checksum: 6cc8fa12405c4cb91c6cf7bca46a64cc)-->
