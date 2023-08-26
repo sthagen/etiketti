@@ -7,7 +7,7 @@ Label (Finnish: etiketti) some files.
 Third party dependencies are documented in the folder [third-party](third-party/README.md).
 
 [![version](https://img.shields.io/pypi/v/etiketti.svg?style=flat)](https://pypi.python.org/pypi/etiketti/)
-[![downloads](https://pepy.tech/badge/etiketti/month)](https://pepy.tech/project/etiketti)
+[![downloads](https://static.pepy.tech/badge/etiketti/month)](https://pepy.tech/project/etiketti)
 [![wheel](https://img.shields.io/pypi/wheel/etiketti.svg?style=flat)](https://pypi.python.org/pypi/etiketti/)
 [![supported-versions](https://img.shields.io/pypi/pyversions/etiketti.svg?style=flat)](https://pypi.python.org/pypi/etiketti/)
 [![supported-implementations](https://img.shields.io/pypi/implementation/etiketti.svg?style=flat)](https://pypi.python.org/pypi/etiketti/)
