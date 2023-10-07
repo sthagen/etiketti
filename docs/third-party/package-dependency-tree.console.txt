@@ -1,6 +1,6 @@
 liitos==2023.6.17
 ├── foran [required: >=2022.12.7, installed: 2023.6.19]
-│   ├── GitPython [required: >=3.1.31, installed: 3.1.32]
+│   ├── GitPython [required: >=3.1.31, installed: 3.1.37]
 │   │   └── gitdb [required: >=4.0.1,<5, installed: 4.0.10]
 │   │       └── smmap [required: >=3.0.1,<6, installed: 5.0.0]
 │   └── typer [required: >=0.9.0, installed: 0.9.0]
@@ -21,7 +21,7 @@ liitos==2023.6.17
     └── typing-extensions [required: >=3.7.4.3, installed: 4.7.1]
 navigaattori==2023.6.18
 ├── foran [required: >=2022.12.7, installed: 2023.6.19]
-│   ├── GitPython [required: >=3.1.31, installed: 3.1.32]
+│   ├── GitPython [required: >=3.1.31, installed: 3.1.37]
 │   │   └── gitdb [required: >=4.0.1,<5, installed: 4.0.10]
 │   │       └── smmap [required: >=3.0.1,<6, installed: 5.0.0]
 │   └── typer [required: >=0.9.0, installed: 0.9.0]
@@ -41,7 +41,7 @@ navigaattori==2023.6.18
     └── typing-extensions [required: >=3.7.4.3, installed: 4.7.1]
 pikepdf==6.2.8.post1
 ├── deprecation [required: Any, installed: 2.1.0]
-│   └── packaging [required: Any, installed: 23.1]
+│   └── packaging [required: Any, installed: 23.2]
 ├── lxml [required: >=4.8, installed: 4.9.3]
-├── packaging [required: Any, installed: 23.1]
+├── packaging [required: Any, installed: 23.2]
 └── Pillow [required: >=9.0, installed: 10.0.0]

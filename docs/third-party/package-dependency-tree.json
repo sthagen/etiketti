@@ -14,7 +14,7 @@
                     {
                         "key": "gitpython",
                         "package_name": "GitPython",
-                        "installed_version": "3.1.32",
+                        "installed_version": "3.1.37",
                         "required_version": ">=3.1.31",
                         "dependencies": [
                             {
@@ -169,7 +169,7 @@
                     {
                         "key": "gitpython",
                         "package_name": "GitPython",
-                        "installed_version": "3.1.32",
+                        "installed_version": "3.1.37",
                         "required_version": ">=3.1.31",
                         "dependencies": [
                             {
@@ -317,7 +317,7 @@
                     {
                         "key": "packaging",
                         "package_name": "packaging",
-                        "installed_version": "23.1",
+                        "installed_version": "23.2",
                         "required_version": "Any",
                         "dependencies": []
                     }
@@ -333,7 +333,7 @@
             {
                 "key": "packaging",
                 "package_name": "packaging",
-                "installed_version": "23.1",
+                "installed_version": "23.2",
                 "required_version": "Any",
                 "dependencies": []
             },
