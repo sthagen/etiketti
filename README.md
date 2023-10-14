@@ -3,7 +3,8 @@
 Label (Finnish: etiketti) some files.
 
 [License: MPL-2.0](https://git.sr.ht/~sthagen/etiketti/tree/default/item/LICENSE) only for the pikepedf dependency - all contributions added are licensed per MIT | 
-[Country of origin: Switzerland](https://git.sr.ht/~sthagen/etiketti/tree/default/item/COUNTRY-OF-ORIGIN)
+[Country of origin: Switzerland](https://git.sr.ht/~sthagen/etiketti/tree/default/item/COUNTRY-OF-ORIGIN) | 
+[Export control classification number(ECCN): EAR99](https://git.sr.ht/~sthagen/etiketti/tree/default/item/EXPORT-CONTROL-CLASSIFICATION-NUMBER)
 
 Third party dependencies are documented in the folder [third-party](docs/docs/third-party/README.md).
 
