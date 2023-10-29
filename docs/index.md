@@ -2,18 +2,15 @@
 
 Label (Finnish: etiketti) some files.
 
-[License: MPL-2.0](https://git.sr.ht/~sthagen/etiketti/tree/default/item/LICENSE) only for the pikepedf dependency - all contributions added are licensed per MIT |
-[Country of origin: Switzerland](https://git.sr.ht/~sthagen/etiketti/tree/default/item/COUNTRY-OF-ORIGIN) |
-[Export control classification number(ECCN): EAR99](https://git.sr.ht/~sthagen/etiketti/tree/default/item/EXPORT-CONTROL-CLASSIFICATION-NUMBER)
+[![license](badges/license-spdx-mpl-2-0-neutral.svg)](https://git.sr.ht/~sthagen/etiketti/tree/default/item/LICENSE)
+[![Country of Origin](badges/country-of-origin-name-switzerland-neutral.svg)](https://git.sr.ht/~sthagen/etiketti/tree/default/item/COUNTRY-OF-ORIGIN)
+[![Export Classification Control Number (ECCN)](badges/export-control-classification-number_eccn-ear99-neutral.svg)](https://git.sr.ht/~sthagen/etiketti/tree/default/item/EXPORT-CONTROL-CLASSIFICATION-NUMBER)
+[![Configuration](badges/configuration-sbom.svg)](third-party/index.html)
 
-Third party dependencies are documented in the folder [third-party](third-party/README.md).
-
-[![version](https://img.shields.io/pypi/v/etiketti.svg?style=flat)](https://pypi.python.org/pypi/etiketti/)
-[![downloads](https://static.pepy.tech/badge/etiketti/month)](https://pepy.tech/project/etiketti)
-[![wheel](https://img.shields.io/pypi/wheel/etiketti.svg?style=flat)](https://pypi.python.org/pypi/etiketti/)
-[![supported-versions](https://img.shields.io/pypi/pyversions/etiketti.svg?style=flat)](https://pypi.python.org/pypi/etiketti/)
-[![supported-implementations](https://img.shields.io/pypi/implementation/etiketti.svg?style=flat)](https://pypi.python.org/pypi/etiketti/)
-[![maintenance-status](https://img.shields.io/github/commit-activity/y/sthagen/etiketti.svg?style=flat)](https://git.sr.ht/~sthagen/etiketti/log)
+[![Version](https://img.shields.io/pypi/v/etiketti.svg?style=flat)](https://pypi.python.org/pypi/etiketti/)
+[![Downloads](https://static.pepy.tech/badge/etiketti/month)](https://pepy.tech/project/etiketti)
+[![Supported Versions](https://img.shields.io/pypi/pyversions/etiketti.svg?style=flat)](https://pypi.python.org/pypi/etiketti/)
+[![Maintenance Status](https://img.shields.io/github/commit-activity/y/sthagen/etiketti.svg?style=flat)](https://git.sr.ht/~sthagen/etiketti/log)
 
 ## Bug Tracker
 
