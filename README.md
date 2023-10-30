@@ -10,7 +10,7 @@ Label (Finnish: etiketti) some files.
 [![Version](https://img.shields.io/pypi/v/etiketti.svg?style=flat)](https://pypi.python.org/pypi/etiketti/)
 [![Downloads](https://static.pepy.tech/badge/etiketti/month)](https://pepy.tech/project/etiketti)
 [![Supported Versions](https://img.shields.io/pypi/pyversions/etiketti.svg?style=flat)](https://pypi.python.org/pypi/etiketti/)
-[![Maintenance Status](https://img.shields.io/github/commit-activity/y/sthagen/etiketti.svg?style=flat)](https://git.sr.ht/~sthagen/etiketti/log)
+[![Maintenance Status](docs/badges/downloads-per-month.svg)](https://git.sr.ht/~sthagen/etiketti/log)
 
 ## Documentation
 
