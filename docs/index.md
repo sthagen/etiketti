@@ -7,7 +7,7 @@ Label (Finnish: etiketti) some files.
 [![Export Classification Control Number (ECCN)](badges/export-control-classification-number_eccn-ear99-neutral.svg)](https://git.sr.ht/~sthagen/etiketti/tree/default/item/EXPORT-CONTROL-CLASSIFICATION-NUMBER)
 [![Configuration](badges/configuration-sbom.svg)](third-party/index.html)
 
-[![Version](https://img.shields.io/pypi/v/etiketti.svg?style=flat)](https://pypi.python.org/pypi/etiketti/)
+[![Version](badges/latest-release.svg)](https://pypi.python.org/pypi/etiketti/)
 [![Downloads](badges/downloads-per-month.svg)](https://pepy.tech/project/etiketti)
 [![Supported Versions](https://img.shields.io/pypi/pyversions/etiketti.svg?style=flat)](https://pypi.python.org/pypi/etiketti/)
 [![Maintenance Status](badges/commits-per-year.svg)](https://git.sr.ht/~sthagen/etiketti/log)
