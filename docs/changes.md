@@ -1,5 +1,8 @@
 # Changes
 
+2023.11.20
+:    * Implemented linearize the PDF derived (<https://todo.sr.ht/~sthagen/etiketti/3>)
+
 2023.6.18
 :    * Moved SBOM noise into folder and added SPDX SBOM (derived) in multiple file formats
 
