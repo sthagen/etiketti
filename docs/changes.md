@@ -1,5 +1,8 @@
 # Changes
 
+2023.11.22
+:    * Fixed for real remove newline commands from title for document attributes (<https://todo.sr.ht/~sthagen/etiketti/4>)
+
 2023.11.21
 :    * Fixed remove newline commands from title for document attributes (<https://todo.sr.ht/~sthagen/etiketti/4>)
 
