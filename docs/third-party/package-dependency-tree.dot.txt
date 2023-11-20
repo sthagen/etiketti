@@ -10,7 +10,7 @@ digraph {
 	gitdb -> smmap [label=">=3.0.1,<6"]
 	gitdb [label="gitdb\n4.0.10"]
 	gitpython -> gitdb [label=">=4.0.1,<5"]
-	gitpython [label="GitPython\n3.1.37"]
+	gitpython [label="GitPython\n3.1.40"]
 	liitos -> foran [label=">=2022.12.7"]
 	liitos -> pyyaml [label=">=6.0"]
 	liitos -> shellingham [label=">=1.5.0.post1"]

@@ -1,6 +1,6 @@
 liitos==2023.6.17
 ├── foran [required: >=2022.12.7, installed: 2023.6.19]
-│   ├── GitPython [required: >=3.1.31, installed: 3.1.37]
+│   ├── GitPython [required: >=3.1.31, installed: 3.1.40]
 │   │   └── gitdb [required: >=4.0.1,<5, installed: 4.0.10]
 │   │       └── smmap [required: >=3.0.1,<6, installed: 5.0.0]
 │   └── typer [required: >=0.9.0, installed: 0.9.0]
@@ -21,7 +21,7 @@ liitos==2023.6.17
     └── typing-extensions [required: >=3.7.4.3, installed: 4.7.1]
 navigaattori==2023.6.18
 ├── foran [required: >=2022.12.7, installed: 2023.6.19]
-│   ├── GitPython [required: >=3.1.31, installed: 3.1.37]
+│   ├── GitPython [required: >=3.1.31, installed: 3.1.40]
 │   │   └── gitdb [required: >=4.0.1,<5, installed: 4.0.10]
 │   │       └── smmap [required: >=3.0.1,<6, installed: 5.0.0]
 │   └── typer [required: >=0.9.0, installed: 0.9.0]

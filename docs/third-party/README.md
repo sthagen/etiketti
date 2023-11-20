@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/etiketti/blob/default/etc/sbom/cdx.json) with SHA256 checksum ([dbf02f3f ...](https://git.sr.ht/~sthagen/etiketti/blob/default/etc/sbom/cdx.json.sha256 "sha256:dbf02f3f03a32ffb6750be1407229105780f15b3e700d563bf1a7e69e48d91af")).
-<!--[[[end]]] (checksum: 3baa326b0e6ad0dccbff1e4ea347ce93)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/etiketti/blob/default/etc/sbom/cdx.json) with SHA256 checksum ([1959f617 ...](https://git.sr.ht/~sthagen/etiketti/blob/default/etc/sbom/cdx.json.sha256 "sha256:1959f617544b29057b46166d0944baf71a1c6d81b0b5ce00898d38b5d142397b")).
+<!--[[[end]]] (checksum: ea773ab8926c3cabcf1560b8fce5a7c3)-->
 ## Licenses 
 
 JSON files with complete license info of: [direct dependencies](direct-dependency-licenses.json) | [all dependencies](all-dependency-licenses.json)
@@ -54,7 +54,7 @@ Base graphviz file in dot format: [Trees of the direct dependencies](package-dep
 ````console
 liitos==2023.6.17
 ├── foran [required: >=2022.12.7, installed: 2023.6.19]
-│   ├── GitPython [required: >=3.1.31, installed: 3.1.37]
+│   ├── GitPython [required: >=3.1.31, installed: 3.1.40]
 │   │   └── gitdb [required: >=4.0.1,<5, installed: 4.0.10]
 │   │       └── smmap [required: >=3.0.1,<6, installed: 5.0.0]
 │   └── typer [required: >=0.9.0, installed: 0.9.0]
@@ -75,7 +75,7 @@ liitos==2023.6.17
     └── typing-extensions [required: >=3.7.4.3, installed: 4.7.1]
 navigaattori==2023.6.18
 ├── foran [required: >=2022.12.7, installed: 2023.6.19]
-│   ├── GitPython [required: >=3.1.31, installed: 3.1.37]
+│   ├── GitPython [required: >=3.1.31, installed: 3.1.40]
 │   │   └── gitdb [required: >=4.0.1,<5, installed: 4.0.10]
 │   │       └── smmap [required: >=3.0.1,<6, installed: 5.0.0]
 │   └── typer [required: >=0.9.0, installed: 0.9.0]
@@ -100,4 +100,4 @@ pikepdf==6.2.8.post1
 ├── packaging [required: Any, installed: 23.2]
 └── Pillow [required: >=9.0, installed: 10.0.0]
 ````
-<!--[[[end]]] (checksum: 4e6f00a10d91755d03e6b04bf091b5f5)-->
+<!--[[[end]]] (checksum: 5f32bc367ec07a76b56f63144d8df309)-->
