@@ -5,9 +5,9 @@
 Versions of etiketti currently being supported with security updates.
 
 | Version(s)   | Supported |
-|:------------ |:--------- |
-| 2023.6.18    | yes       |
-| < 2023.6.18  | no        |
+|:-------------|:----------|
+| 2023.11.20   | yes       |
+| < 2023.11.20 | no        |
 
 ## Reporting a Vulnerability
 
