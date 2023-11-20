@@ -75,7 +75,7 @@ def extract_meta_parts(path: PathLike) -> tuple[str, str, str]:
         metadata = yaml.safe_load(handle)
     mapping = metadata['document']['common']
     title = mapping.get('title', '')
-    subject = mapping.get('header_id', '')
+    subject = mapping.get('header_id', '').replace('\\\\', '').replace('  ', ' ')
     keywords = mapping.get('keywords_csl', '')
     return title or '', subject or '', keywords or ''
 
