@@ -191,7 +191,7 @@ def cross_correlate(source: PathLike, conventions: ConventionsType, context: Con
             pdf.docinfo['/PTEX.FullBanner'] = backend_version
             pdf.docinfo['/Subject'] = m['dc:subject']
             pdf.docinfo['/Title'] = m['dc:title']
-            pdf.save(target, fix_metadata_version=False)
+            pdf.save(target, fix_metadata_version=False, linearize=True)
 
     log.info(LOG_SEPARATOR)
     log.info('Patching the timestamps:')
