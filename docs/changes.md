@@ -1,5 +1,8 @@
 # Changes
 
+2023.11.21
+:    * Fixed remove newline commands from title for document attributes (<https://todo.sr.ht/~sthagen/etiketti/4>)
+
 2023.11.20
 :    * Implemented linearize the PDF derived (<https://todo.sr.ht/~sthagen/etiketti/3>)
 
