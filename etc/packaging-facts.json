@@ -37,7 +37,7 @@
       "Source-Code": "https://git.sr.ht/~sthagen/etiketti",
       "Test-Coverage": "https://codes.dilettant.life/coverage/etiketti"
     },
-    "release_url": "https://pypi.org/project/etiketti/2023.11.20/",
+    "release_url": "https://pypi.org/project/etiketti/2023.11.22/",
     "requires_dist": [
       "PyYAML >=6.0",
       "liitos >=2023.6.17",
@@ -54,11 +54,11 @@
     ],
     "requires_python": ">=3.9",
     "summary": "Label (Finnish: etiketti) some files.",
-    "version": "2023.11.20",
+    "version": "2023.11.22",
     "yanked": false,
     "yanked_reason": null
   },
-  "last_serial": 20718308,
+  "last_serial": 20719410,
   "releases": {
     "2023.1.22": [
       {
@@ -236,6 +236,94 @@
         "yanked_reason": null
       }
     ],
+    "2023.11.21": [
+      {
+        "comment_text": "",
+        "digests": {
+          "blake2b_256": "b6eaa1cdf2bd493d8236509eb7f27696d3efc7a762facef58ef0b164077d741e",
+          "md5": "ac4aeb5c01a506b26bd6d810d44326b1",
+          "sha256": "0abd180a0df4d1fd726ce78ffddcce3e57abf13d0b38e6b015c160655a3ce417"
+        },
+        "downloads": -1,
+        "filename": "etiketti-2023.11.21-py3-none-any.whl",
+        "has_sig": false,
+        "md5_digest": "ac4aeb5c01a506b26bd6d810d44326b1",
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 17581,
+        "upload_time": "2023-11-20T18:17:30",
+        "upload_time_iso_8601": "2023-11-20T18:17:30.229775Z",
+        "url": "https://files.pythonhosted.org/packages/b6/ea/a1cdf2bd493d8236509eb7f27696d3efc7a762facef58ef0b164077d741e/etiketti-2023.11.21-py3-none-any.whl",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "comment_text": "",
+        "digests": {
+          "blake2b_256": "be0556061869fba8e6586946f8bf2ae92593ec6129275509ee9c4c885086270f",
+          "md5": "754d9c27230573541c469d036d01fb4e",
+          "sha256": "f0a95e6bd0ae1281dc24aafcf34f8acdbc2cbd0a885ef2fe1f382ef953ee5c8e"
+        },
+        "downloads": -1,
+        "filename": "etiketti-2023.11.21.tar.gz",
+        "has_sig": false,
+        "md5_digest": "754d9c27230573541c469d036d01fb4e",
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 18173,
+        "upload_time": "2023-11-20T18:17:31",
+        "upload_time_iso_8601": "2023-11-20T18:17:31.870278Z",
+        "url": "https://files.pythonhosted.org/packages/be/05/56061869fba8e6586946f8bf2ae92593ec6129275509ee9c4c885086270f/etiketti-2023.11.21.tar.gz",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2023.11.22": [
+      {
+        "comment_text": "",
+        "digests": {
+          "blake2b_256": "669199f86522380a7a9cf7951d5eaae2c5d603b48a10046f21711a161d586e0c",
+          "md5": "8e084963d70b766e645f894a27fd9ce8",
+          "sha256": "6b61a24026d7920b0a7123813623892c6db59ea71231156e0d98a11765e4c8bc"
+        },
+        "downloads": -1,
+        "filename": "etiketti-2023.11.22-py3-none-any.whl",
+        "has_sig": false,
+        "md5_digest": "8e084963d70b766e645f894a27fd9ce8",
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 17581,
+        "upload_time": "2023-11-20T18:39:42",
+        "upload_time_iso_8601": "2023-11-20T18:39:42.098192Z",
+        "url": "https://files.pythonhosted.org/packages/66/91/99f86522380a7a9cf7951d5eaae2c5d603b48a10046f21711a161d586e0c/etiketti-2023.11.22-py3-none-any.whl",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "comment_text": "",
+        "digests": {
+          "blake2b_256": "d35653a32d1880b93fe101b08d09a32be09b15951ee48d1869716ddc3d23a2a3",
+          "md5": "dd43e93a31101409e9c08ac9f230b78f",
+          "sha256": "bd9ebcac023e4804c77b8985dbbc5b504564fd4752d378ab580dcb4d5d3454d8"
+        },
+        "downloads": -1,
+        "filename": "etiketti-2023.11.22.tar.gz",
+        "has_sig": false,
+        "md5_digest": "dd43e93a31101409e9c08ac9f230b78f",
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 18159,
+        "upload_time": "2023-11-20T18:39:43",
+        "upload_time_iso_8601": "2023-11-20T18:39:43.658138Z",
+        "url": "https://files.pythonhosted.org/packages/d3/56/53a32d1880b93fe101b08d09a32be09b15951ee48d1869716ddc3d23a2a3/etiketti-2023.11.22.tar.gz",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
     "2023.2.13": [
       {
         "comment_text": "",
@@ -329,42 +417,42 @@
     {
       "comment_text": "",
       "digests": {
-        "blake2b_256": "9d45b77924dfec806f789cdf68d97932276b7d822076d9484755134f9a9e7012",
-        "md5": "df1bc4dcbb6e127a4e6f9880c070b845",
-        "sha256": "daefea67471f90b7c2735630b4fbfc113e9b2589b375893f8deab4e6db81d7ed"
+        "blake2b_256": "669199f86522380a7a9cf7951d5eaae2c5d603b48a10046f21711a161d586e0c",
+        "md5": "8e084963d70b766e645f894a27fd9ce8",
+        "sha256": "6b61a24026d7920b0a7123813623892c6db59ea71231156e0d98a11765e4c8bc"
       },
       "downloads": -1,
-      "filename": "etiketti-2023.11.20-py3-none-any.whl",
+      "filename": "etiketti-2023.11.22-py3-none-any.whl",
       "has_sig": false,
-      "md5_digest": "df1bc4dcbb6e127a4e6f9880c070b845",
+      "md5_digest": "8e084963d70b766e645f894a27fd9ce8",
       "packagetype": "bdist_wheel",
       "python_version": "py3",
       "requires_python": ">=3.9",
-      "size": 17570,
-      "upload_time": "2023-11-20T17:14:27",
-      "upload_time_iso_8601": "2023-11-20T17:14:27.288963Z",
-      "url": "https://files.pythonhosted.org/packages/9d/45/b77924dfec806f789cdf68d97932276b7d822076d9484755134f9a9e7012/etiketti-2023.11.20-py3-none-any.whl",
+      "size": 17581,
+      "upload_time": "2023-11-20T18:39:42",
+      "upload_time_iso_8601": "2023-11-20T18:39:42.098192Z",
+      "url": "https://files.pythonhosted.org/packages/66/91/99f86522380a7a9cf7951d5eaae2c5d603b48a10046f21711a161d586e0c/etiketti-2023.11.22-py3-none-any.whl",
       "yanked": false,
       "yanked_reason": null
     },
     {
       "comment_text": "",
       "digests": {
-        "blake2b_256": "6c20719d0eea877e0dc08b1a5f8be7a38aed3172f40e4f647bba9e465c11eb3a",
-        "md5": "94d8c4f124f50707fd47c9585983be1d",
-        "sha256": "67cb908867cb33e00bedb445962f61443de647c972874ab1fe21555bfa61ad3b"
+        "blake2b_256": "d35653a32d1880b93fe101b08d09a32be09b15951ee48d1869716ddc3d23a2a3",
+        "md5": "dd43e93a31101409e9c08ac9f230b78f",
+        "sha256": "bd9ebcac023e4804c77b8985dbbc5b504564fd4752d378ab580dcb4d5d3454d8"
       },
       "downloads": -1,
-      "filename": "etiketti-2023.11.20.tar.gz",
+      "filename": "etiketti-2023.11.22.tar.gz",
       "has_sig": false,
-      "md5_digest": "94d8c4f124f50707fd47c9585983be1d",
+      "md5_digest": "dd43e93a31101409e9c08ac9f230b78f",
       "packagetype": "sdist",
       "python_version": "source",
       "requires_python": ">=3.9",
-      "size": 18143,
-      "upload_time": "2023-11-20T17:14:28",
-      "upload_time_iso_8601": "2023-11-20T17:14:28.372794Z",
-      "url": "https://files.pythonhosted.org/packages/6c/20/719d0eea877e0dc08b1a5f8be7a38aed3172f40e4f647bba9e465c11eb3a/etiketti-2023.11.20.tar.gz",
+      "size": 18159,
+      "upload_time": "2023-11-20T18:39:43",
+      "upload_time_iso_8601": "2023-11-20T18:39:43.658138Z",
+      "url": "https://files.pythonhosted.org/packages/d3/56/53a32d1880b93fe101b08d09a32be09b15951ee48d1869716ddc3d23a2a3/etiketti-2023.11.22.tar.gz",
       "yanked": false,
       "yanked_reason": null
     }
