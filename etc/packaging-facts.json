@@ -12,7 +12,7 @@
       "Programming Language :: Python :: 3.12",
       "Programming Language :: Python :: 3.9"
     ],
-    "description": "# Etiketti\n\nLabel (Finnish: etiketti) some files.\n\n[![License](docs/badges/license-spdx-mpl-2-0-neutral.svg)](https://git.sr.ht/~sthagen/etiketti/tree/default/item/LICENSE)\n[![Country of Origin](docs/badges/country-of-origin-name-switzerland-neutral.svg)](https://git.sr.ht/~sthagen/etiketti/tree/default/item/COUNTRY-OF-ORIGIN)\n[![Export Classification Control Number (ECCN)](docs/badges/export-control-classification-number_eccn-ear99-neutral.svg)](https://git.sr.ht/~sthagen/etiketti/tree/default/item/EXPORT-CONTROL-CLASSIFICATION-NUMBER)\n[![Configuration](docs/badges/configuration-sbom.svg)](https://git.sr.ht/~sthagen/etiketti/tree/default/item/docs/third-party/README.md)\n\n[![Version](docs/badges/latest-release.svg)](https://pypi.python.org/pypi/etiketti/)\n[![Downloads](docs/badges/downloads-per-month.svg)](https://pepy.tech/project/etiketti)\n[![Python](docs/badges/python-versions.svg)](https://pypi.python.org/pypi/etiketti/)\n[![Maintenance Status](docs/badges/commits-per-year.svg)](https://git.sr.ht/~sthagen/etiketti/log)\n\n## Documentation\n\nUser and developer [documentation of etiketti](https://codes.dilettant.life/docs/etiketti).\n\n## Bug Tracker\n\nAny feature requests or bug reports shall go to the [todos of etiketti](https://todo.sr.ht/~sthagen/etiketti).\n\n## Primary Source repository\n\nThe main source of `etiketti` is on a mountain in central Switzerland.\nWe use distributed version control (git).\nThere is no central hub.\nEvery clone can become a new source for the benefit of all.\nThe preferred public clones of `etiketti` are:\n\n* [on codeberg](https://codeberg.org/sthagen/etiketti) - a democratic community-driven, non-profit software development platform operated by Codeberg e.V.\n* [at sourcehut](https://git.sr.ht/~sthagen/etiketti) - a collection of tools useful for software development.\n\n## Contributions\n\nPlease do not submit \"pull requests\" (I found no way to disable that \"feature\" on GitHub).\nIf you like to share small changes under the repositories license please kindly do so by sending a patchset.\nYou can either send such a patchset per email using [git send-email](https://git-send-email.io) or \nif you are a sourcehut user by selecting \"Prepare a patchset\" on the summary page of your fork at [sourcehut](https://git.sr.ht/).\n\n## Support\n\nPlease kindly submit issues at https://todo.sr.ht/~sthagen/etiketti or write plain text email to ~sthagen/etiketti@lists.sr.ht to submit patches and request support. Thanks.\n\n## Status\n\nPrototype.\n\n**Note**: The default branch is `default`.\n",
+    "description": "# Etiketti\n\nLabel (Finnish: etiketti) some files.\n\n[![License](https://git.sr.ht/~sthagen/liitos/blob/default/docs/badges/license-spdx-mpl-2-0-neutral.svg)](https://git.sr.ht/~sthagen/etiketti/tree/default/item/LICENSE)\n[![Country of Origin](https://git.sr.ht/~sthagen/liitos/blob/default/docs/badges/country-of-origin-name-switzerland-neutral.svg)](https://git.sr.ht/~sthagen/etiketti/tree/default/item/COUNTRY-OF-ORIGIN)\n[![Export Classification Control Number (ECCN)](https://git.sr.ht/~sthagen/liitos/blob/default/docs/badges/export-control-classification-number_eccn-ear99-neutral.svg)](https://git.sr.ht/~sthagen/etiketti/tree/default/item/EXPORT-CONTROL-CLASSIFICATION-NUMBER)\n[![Configuration](https://git.sr.ht/~sthagen/liitos/blob/default/docs/badges/configuration-sbom.svg)](https://git.sr.ht/~sthagen/etiketti/tree/default/item/docs/third-party/README.md)\n\n[![Version](https://git.sr.ht/~sthagen/liitos/blob/default/docs/badges/latest-release.svg)](https://pypi.python.org/pypi/etiketti/)\n[![Downloads](https://git.sr.ht/~sthagen/liitos/blob/default/docs/badges/downloads-per-month.svg)](https://pepy.tech/project/etiketti)\n[![Python](https://git.sr.ht/~sthagen/liitos/blob/default/docs/badges/python-versions.svg)](https://pypi.python.org/pypi/etiketti/)\n[![Maintenance Status](https://git.sr.ht/~sthagen/liitos/blob/default/docs/badges/commits-per-year.svg)](https://git.sr.ht/~sthagen/etiketti/log)\n\n## Documentation\n\nUser and developer [documentation of etiketti](https://codes.dilettant.life/docs/etiketti).\n\n## Bug Tracker\n\nAny feature requests or bug reports shall go to the [todos of etiketti](https://todo.sr.ht/~sthagen/etiketti).\n\n## Primary Source repository\n\nThe main source of `etiketti` is on a mountain in central Switzerland.\nWe use distributed version control (git).\nThere is no central hub.\nEvery clone can become a new source for the benefit of all.\nThe preferred public clones of `etiketti` are:\n\n* [on codeberg](https://codeberg.org/sthagen/etiketti) - a democratic community-driven, non-profit software development platform operated by Codeberg e.V.\n* [at sourcehut](https://git.sr.ht/~sthagen/etiketti) - a collection of tools useful for software development.\n\n## Contributions\n\nPlease do not submit \"pull requests\" (I found no way to disable that \"feature\" on GitHub).\nIf you like to share small changes under the repositories license please kindly do so by sending a patchset.\nYou can either send such a patchset per email using [git send-email](https://git-send-email.io) or \nif you are a sourcehut user by selecting \"Prepare a patchset\" on the summary page of your fork at [sourcehut](https://git.sr.ht/).\n\n## Support\n\nPlease kindly submit issues at https://todo.sr.ht/~sthagen/etiketti or write plain text email to ~sthagen/etiketti@lists.sr.ht to submit patches and request support. Thanks.\n\n## Status\n\nPrototype.\n\n**Note**: The default branch is `default`.\n",
     "description_content_type": "text/markdown",
     "docs_url": null,
     "download_url": "",
@@ -37,7 +37,7 @@
       "Source-Code": "https://git.sr.ht/~sthagen/etiketti",
       "Test-Coverage": "https://codes.dilettant.life/coverage/etiketti"
     },
-    "release_url": "https://pypi.org/project/etiketti/2023.11.22/",
+    "release_url": "https://pypi.org/project/etiketti/2023.11.23/",
     "requires_dist": [
       "PyYAML >=6.0",
       "liitos >=2023.6.17",
@@ -54,11 +54,11 @@
     ],
     "requires_python": ">=3.9",
     "summary": "Label (Finnish: etiketti) some files.",
-    "version": "2023.11.22",
+    "version": "2023.11.23",
     "yanked": false,
     "yanked_reason": null
   },
-  "last_serial": 20719410,
+  "last_serial": 20736311,
   "releases": {
     "2023.1.22": [
       {
@@ -324,6 +324,50 @@
         "yanked_reason": null
       }
     ],
+    "2023.11.23": [
+      {
+        "comment_text": "",
+        "digests": {
+          "blake2b_256": "be82de9bc930a08d7e5f0516bbbccf9b82b256c812938be779f345342a3f2bea",
+          "md5": "61b82bcda728e1dc885d008be3b200fb",
+          "sha256": "71c282c6e87dcb666c63b2b9ce5d044087f6bee9668db0d0b15655da7ad3ec6a"
+        },
+        "downloads": -1,
+        "filename": "etiketti-2023.11.23-py3-none-any.whl",
+        "has_sig": false,
+        "md5_digest": "61b82bcda728e1dc885d008be3b200fb",
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 17665,
+        "upload_time": "2023-11-21T18:11:03",
+        "upload_time_iso_8601": "2023-11-21T18:11:03.627210Z",
+        "url": "https://files.pythonhosted.org/packages/be/82/de9bc930a08d7e5f0516bbbccf9b82b256c812938be779f345342a3f2bea/etiketti-2023.11.23-py3-none-any.whl",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "comment_text": "",
+        "digests": {
+          "blake2b_256": "c4390efaea9d362a976f04ebcce0617573c76d2860722022655593d863f65683",
+          "md5": "959f7495772ca789c9c38f2d9caca845",
+          "sha256": "c893ebec53fd3593e4c31778758ef579d0b750046933ad0ccf71733302e13a9f"
+        },
+        "downloads": -1,
+        "filename": "etiketti-2023.11.23.tar.gz",
+        "has_sig": false,
+        "md5_digest": "959f7495772ca789c9c38f2d9caca845",
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 18287,
+        "upload_time": "2023-11-21T18:11:08",
+        "upload_time_iso_8601": "2023-11-21T18:11:08.405523Z",
+        "url": "https://files.pythonhosted.org/packages/c4/39/0efaea9d362a976f04ebcce0617573c76d2860722022655593d863f65683/etiketti-2023.11.23.tar.gz",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
     "2023.2.13": [
       {
         "comment_text": "",
@@ -417,42 +461,42 @@
     {
       "comment_text": "",
       "digests": {
-        "blake2b_256": "669199f86522380a7a9cf7951d5eaae2c5d603b48a10046f21711a161d586e0c",
-        "md5": "8e084963d70b766e645f894a27fd9ce8",
-        "sha256": "6b61a24026d7920b0a7123813623892c6db59ea71231156e0d98a11765e4c8bc"
+        "blake2b_256": "be82de9bc930a08d7e5f0516bbbccf9b82b256c812938be779f345342a3f2bea",
+        "md5": "61b82bcda728e1dc885d008be3b200fb",
+        "sha256": "71c282c6e87dcb666c63b2b9ce5d044087f6bee9668db0d0b15655da7ad3ec6a"
       },
       "downloads": -1,
-      "filename": "etiketti-2023.11.22-py3-none-any.whl",
+      "filename": "etiketti-2023.11.23-py3-none-any.whl",
       "has_sig": false,
-      "md5_digest": "8e084963d70b766e645f894a27fd9ce8",
+      "md5_digest": "61b82bcda728e1dc885d008be3b200fb",
       "packagetype": "bdist_wheel",
       "python_version": "py3",
       "requires_python": ">=3.9",
-      "size": 17581,
-      "upload_time": "2023-11-20T18:39:42",
-      "upload_time_iso_8601": "2023-11-20T18:39:42.098192Z",
-      "url": "https://files.pythonhosted.org/packages/66/91/99f86522380a7a9cf7951d5eaae2c5d603b48a10046f21711a161d586e0c/etiketti-2023.11.22-py3-none-any.whl",
+      "size": 17665,
+      "upload_time": "2023-11-21T18:11:03",
+      "upload_time_iso_8601": "2023-11-21T18:11:03.627210Z",
+      "url": "https://files.pythonhosted.org/packages/be/82/de9bc930a08d7e5f0516bbbccf9b82b256c812938be779f345342a3f2bea/etiketti-2023.11.23-py3-none-any.whl",
       "yanked": false,
       "yanked_reason": null
     },
     {
       "comment_text": "",
       "digests": {
-        "blake2b_256": "d35653a32d1880b93fe101b08d09a32be09b15951ee48d1869716ddc3d23a2a3",
-        "md5": "dd43e93a31101409e9c08ac9f230b78f",
-        "sha256": "bd9ebcac023e4804c77b8985dbbc5b504564fd4752d378ab580dcb4d5d3454d8"
+        "blake2b_256": "c4390efaea9d362a976f04ebcce0617573c76d2860722022655593d863f65683",
+        "md5": "959f7495772ca789c9c38f2d9caca845",
+        "sha256": "c893ebec53fd3593e4c31778758ef579d0b750046933ad0ccf71733302e13a9f"
       },
       "downloads": -1,
-      "filename": "etiketti-2023.11.22.tar.gz",
+      "filename": "etiketti-2023.11.23.tar.gz",
       "has_sig": false,
-      "md5_digest": "dd43e93a31101409e9c08ac9f230b78f",
+      "md5_digest": "959f7495772ca789c9c38f2d9caca845",
       "packagetype": "sdist",
       "python_version": "source",
       "requires_python": ">=3.9",
-      "size": 18159,
-      "upload_time": "2023-11-20T18:39:43",
-      "upload_time_iso_8601": "2023-11-20T18:39:43.658138Z",
-      "url": "https://files.pythonhosted.org/packages/d3/56/53a32d1880b93fe101b08d09a32be09b15951ee48d1869716ddc3d23a2a3/etiketti-2023.11.22.tar.gz",
+      "size": 18287,
+      "upload_time": "2023-11-21T18:11:08",
+      "upload_time_iso_8601": "2023-11-21T18:11:08.405523Z",
+      "url": "https://files.pythonhosted.org/packages/c4/39/0efaea9d362a976f04ebcce0617573c76d2860722022655593d863f65683/etiketti-2023.11.23.tar.gz",
       "yanked": false,
       "yanked_reason": null
     }
