@@ -239,3 +239,6 @@ label:
   setup-tex-name: setup.tex
   this-tex-name: this.tex
 ```
+
+In case you want to provide a default author, you can set the environment variable
+`ETIKETTI_DEFAULT_AUTHOR` to anything truth-like.
