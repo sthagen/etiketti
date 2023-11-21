@@ -8,6 +8,7 @@ from typing import Any, Callable, no_type_check
 import yaml
 
 from etiketti import (
+    DEFAULT_AUTHOR,
     ENCODING,
     LOG_SEPARATOR,
     ContextType,
@@ -59,14 +60,16 @@ def load_label_context(path: PathLike) -> ContextType:
 
 @no_type_check
 def extract_author(path: PathLike) -> str:
-    """Extract the author from the approvals file."""
+    """Extract the author from the approvals file if DEFAULT_AUTHOR is false-like."""
+    if DEFAULT_AUTHOR:
+        return DEFAULT_AUTHOR
     with open(path, 'rt', encoding=ENCODING) as handle:
         approvals = yaml.safe_load(handle)
     entries = approvals['approvals']
     for entry in entries:
         if entry.get('role').lower() == 'author':
-            return entry.get('name', '') or ''
-    return ''
+            return entry.get('name', '') or DEFAULT_AUTHOR
+    return DEFAULT_AUTHOR
 
 
 def extract_meta_parts(path: PathLike) -> tuple[str, str, str]:

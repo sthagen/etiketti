@@ -25,6 +25,7 @@ DEFAULT_CONFIG_NAME = f'.{APP_ALIAS}.json'
 
 APP_VERSION = __version__
 DEFAULT_LF_ONLY = 'YES'
+DEFAULT_AUTHOR = os.getenv(f'{APP_ENV}_DEFAULT_AUTHOR', '')
 log = logging.getLogger()  # Module level logger is sufficient
 LOG_FOLDER = pathlib.Path('logs')
 LOG_FILE = f'{APP_ALIAS}.log'
@@ -54,6 +55,7 @@ __all__: List[str] = [
     'APP_NAME',
     'APP_VERSION',
     'CONFIG_PATH_STRING',
+    'DEFAULT_AUTHOR',
     'ENCODING',
     'LOG_SEPARATOR',
     'SOURCE_NAME_PATH_STRING',
