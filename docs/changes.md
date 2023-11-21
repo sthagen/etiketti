@@ -1,5 +1,9 @@
 # Changes
 
+2023.11.23
+:    * Implemented add possibility to overwrite the author in PDF meta data (<https://todo.sr.ht/~sthagen/etiketti/6>)
+* Implemented ensure the title in the PDF meta data is Title Case (<https://todo.sr.ht/~sthagen/etiketti/5>)
+
 2023.11.22
 :    * Fixed for real remove newline commands from title for document attributes (<https://todo.sr.ht/~sthagen/etiketti/4>)
 
