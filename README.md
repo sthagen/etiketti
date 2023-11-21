@@ -2,15 +2,15 @@
 
 Label (Finnish: etiketti) some files.
 
-[![License](https://git.sr.ht/~sthagen/liitos/blob/default/docs/badges/license-spdx-mpl-2-0-neutral.svg)](https://git.sr.ht/~sthagen/etiketti/tree/default/item/LICENSE)
-[![Country of Origin](https://git.sr.ht/~sthagen/liitos/blob/default/docs/badges/country-of-origin-name-switzerland-neutral.svg)](https://git.sr.ht/~sthagen/etiketti/tree/default/item/COUNTRY-OF-ORIGIN)
-[![Export Classification Control Number (ECCN)](https://git.sr.ht/~sthagen/liitos/blob/default/docs/badges/export-control-classification-number_eccn-ear99-neutral.svg)](https://git.sr.ht/~sthagen/etiketti/tree/default/item/EXPORT-CONTROL-CLASSIFICATION-NUMBER)
-[![Configuration](https://git.sr.ht/~sthagen/liitos/blob/default/docs/badges/configuration-sbom.svg)](https://git.sr.ht/~sthagen/etiketti/tree/default/item/docs/third-party/README.md)
+[![License](https://git.sr.ht/~sthagen/etiketti/blob/default/docs/badges/license-spdx-mpl-2-0-neutral.svg)](https://git.sr.ht/~sthagen/etiketti/tree/default/item/LICENSE)
+[![Country of Origin](https://git.sr.ht/~sthagen/etiketti/blob/default/docs/badges/country-of-origin-name-switzerland-neutral.svg)](https://git.sr.ht/~sthagen/etiketti/tree/default/item/COUNTRY-OF-ORIGIN)
+[![Export Classification Control Number (ECCN)](https://git.sr.ht/~sthagen/etiketti/blob/default/docs/badges/export-control-classification-number_eccn-ear99-neutral.svg)](https://git.sr.ht/~sthagen/etiketti/tree/default/item/EXPORT-CONTROL-CLASSIFICATION-NUMBER)
+[![Configuration](https://git.sr.ht/~sthagen/etiketti/blob/default/docs/badges/configuration-sbom.svg)](https://git.sr.ht/~sthagen/etiketti/tree/default/item/docs/third-party/README.md)
 
-[![Version](https://git.sr.ht/~sthagen/liitos/blob/default/docs/badges/latest-release.svg)](https://pypi.python.org/pypi/etiketti/)
-[![Downloads](https://git.sr.ht/~sthagen/liitos/blob/default/docs/badges/downloads-per-month.svg)](https://pepy.tech/project/etiketti)
-[![Python](https://git.sr.ht/~sthagen/liitos/blob/default/docs/badges/python-versions.svg)](https://pypi.python.org/pypi/etiketti/)
-[![Maintenance Status](https://git.sr.ht/~sthagen/liitos/blob/default/docs/badges/commits-per-year.svg)](https://git.sr.ht/~sthagen/etiketti/log)
+[![Version](https://git.sr.ht/~sthagen/etiketti/blob/default/docs/badges/latest-release.svg)](https://pypi.python.org/pypi/etiketti/)
+[![Downloads](https://git.sr.ht/~sthagen/etiketti/blob/default/docs/badges/downloads-per-month.svg)](https://pepy.tech/project/etiketti)
+[![Python](https://git.sr.ht/~sthagen/etiketti/blob/default/docs/badges/python-versions.svg)](https://pypi.python.org/pypi/etiketti/)
+[![Maintenance Status](https://git.sr.ht/~sthagen/etiketti/blob/default/docs/badges/commits-per-year.svg)](https://git.sr.ht/~sthagen/etiketti/log)
 
 ## Documentation
 
