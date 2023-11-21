@@ -3,44 +3,23 @@
   "spdxVersion" : "SPDX-2.3",
   "creationInfo" : {
     "comment" : "Converted from CycloneDX spec version 1.4",
-    "created" : "2023-11-20T18:13:04Z",
+    "created" : "2023-11-21T17:58:03Z",
     "creators" : [ "Tool: CycloneDX:cyclonedx-bom-3.11.7", "Tool: CycloneDX:cyclonedx-python-lib-3.1.5", "Tool: CycloneToSpdx-0.1.4" ],
     "licenseListVersion" : "3.22"
   },
   "name" : "From-Cyclone-DX",
   "dataLicense" : "CC0-1.0",
   "annotations" : [ {
-    "annotationDate" : "2023-11-20T18:13:05Z",
+    "annotationDate" : "2023-11-21T17:58:04Z",
     "annotationType" : "OTHER",
     "annotator" : "Tool: CycloneToSpdx",
     "comment" : "MISSING_CDX_PROPERTY:extensions={}"
   } ],
-  "documentNamespace" : "https://cyclonedx/a9b7f5ed-62a9-4627-9dbd-869944faeea4_1",
+  "documentNamespace" : "https://cyclonedx/b3134f08-0ec2-4dcb-9bb9-a520a0c2a72d_1",
   "packages" : [ {
-    "SPDXID" : "SPDXRef-e38f7bbe-cf17-4c57-9a99-23dc01238df2",
+    "SPDXID" : "SPDXRef-06cdf81d-a6a3-42f1-937b-3c0a78f90eff",
     "annotations" : [ {
-      "annotationDate" : "2023-11-20T18:13:05Z",
-      "annotationType" : "OTHER",
-      "annotator" : "Tool: CycloneToSpdx",
-      "comment" : "MISSING_CDX_PROPERTY:componentType=\"LIBRARY\""
-    } ],
-    "copyrightText" : "NOASSERTION",
-    "downloadLocation" : "NOASSERTION",
-    "externalRefs" : [ {
-      "referenceCategory" : "PACKAGE-MANAGER",
-      "referenceLocator" : "pkg:pypi/pikepdf@6.2.8.post1",
-      "referenceType" : "purl"
-    } ],
-    "filesAnalyzed" : false,
-    "licenseConcluded" : "NOASSERTION",
-    "licenseDeclared" : "NOASSERTION",
-    "name" : "pikepdf",
-    "primaryPackagePurpose" : "LIBRARY",
-    "versionInfo" : "6.2.8.post1"
-  }, {
-    "SPDXID" : "SPDXRef-b13b6941-0803-4d6e-af7e-c3618472ab17",
-    "annotations" : [ {
-      "annotationDate" : "2023-11-20T18:13:05Z",
+      "annotationDate" : "2023-11-21T17:58:04Z",
       "annotationType" : "OTHER",
       "annotator" : "Tool: CycloneToSpdx",
       "comment" : "MISSING_CDX_PROPERTY:componentType=\"LIBRARY\""
@@ -59,9 +38,30 @@
     "primaryPackagePurpose" : "LIBRARY",
     "versionInfo" : "2023.6.17"
   }, {
-    "SPDXID" : "SPDXRef-9832ae80-0026-4902-a667-715391ef2fb0",
+    "SPDXID" : "SPDXRef-a53d2098-9316-40e4-9740-10bf6e05a63a",
     "annotations" : [ {
-      "annotationDate" : "2023-11-20T18:13:05Z",
+      "annotationDate" : "2023-11-21T17:58:04Z",
+      "annotationType" : "OTHER",
+      "annotator" : "Tool: CycloneToSpdx",
+      "comment" : "MISSING_CDX_PROPERTY:componentType=\"LIBRARY\""
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:pypi/navigaattori@2023.6.18",
+      "referenceType" : "purl"
+    } ],
+    "filesAnalyzed" : false,
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "NOASSERTION",
+    "name" : "navigaattori",
+    "primaryPackagePurpose" : "LIBRARY",
+    "versionInfo" : "2023.6.18"
+  }, {
+    "SPDXID" : "SPDXRef-0774469e-53b5-4e9f-8858-45b65d605b3f",
+    "annotations" : [ {
+      "annotationDate" : "2023-11-21T17:58:04Z",
       "annotationType" : "OTHER",
       "annotator" : "Tool: CycloneToSpdx",
       "comment" : "MISSING_CDX_PROPERTY:componentType=\"LIBRARY\""
@@ -80,9 +80,9 @@
     "primaryPackagePurpose" : "LIBRARY",
     "versionInfo" : "6.0"
   }, {
-    "SPDXID" : "SPDXRef-952fcc9d-ebc1-4207-a952-41f2dcea347d",
+    "SPDXID" : "SPDXRef-88cf634b-4e1f-44e6-875f-8214298588a3",
     "annotations" : [ {
-      "annotationDate" : "2023-11-20T18:13:05Z",
+      "annotationDate" : "2023-11-21T17:58:04Z",
       "annotationType" : "OTHER",
       "annotator" : "Tool: CycloneToSpdx",
       "comment" : "MISSING_CDX_PROPERTY:componentType=\"LIBRARY\""
@@ -91,31 +91,31 @@
     "downloadLocation" : "NOASSERTION",
     "externalRefs" : [ {
       "referenceCategory" : "PACKAGE-MANAGER",
-      "referenceLocator" : "pkg:pypi/navigaattori@2023.6.18",
+      "referenceLocator" : "pkg:pypi/pikepdf@6.2.8.post1",
       "referenceType" : "purl"
     } ],
     "filesAnalyzed" : false,
     "licenseConcluded" : "NOASSERTION",
     "licenseDeclared" : "NOASSERTION",
-    "name" : "navigaattori",
+    "name" : "pikepdf",
     "primaryPackagePurpose" : "LIBRARY",
-    "versionInfo" : "2023.6.18"
+    "versionInfo" : "6.2.8.post1"
   } ],
   "relationships" : [ {
     "spdxElementId" : "SPDXRef-DOCUMENT",
     "relationshipType" : "DESCRIBES",
-    "relatedSpdxElement" : "SPDXRef-b13b6941-0803-4d6e-af7e-c3618472ab17"
+    "relatedSpdxElement" : "SPDXRef-06cdf81d-a6a3-42f1-937b-3c0a78f90eff"
   }, {
     "spdxElementId" : "SPDXRef-DOCUMENT",
     "relationshipType" : "DESCRIBES",
-    "relatedSpdxElement" : "SPDXRef-9832ae80-0026-4902-a667-715391ef2fb0"
+    "relatedSpdxElement" : "SPDXRef-0774469e-53b5-4e9f-8858-45b65d605b3f"
   }, {
     "spdxElementId" : "SPDXRef-DOCUMENT",
     "relationshipType" : "DESCRIBES",
-    "relatedSpdxElement" : "SPDXRef-e38f7bbe-cf17-4c57-9a99-23dc01238df2"
+    "relatedSpdxElement" : "SPDXRef-88cf634b-4e1f-44e6-875f-8214298588a3"
   }, {
     "spdxElementId" : "SPDXRef-DOCUMENT",
     "relationshipType" : "DESCRIBES",
-    "relatedSpdxElement" : "SPDXRef-952fcc9d-ebc1-4207-a952-41f2dcea347d"
+    "relatedSpdxElement" : "SPDXRef-a53d2098-9316-40e4-9740-10bf6e05a63a"
   } ]
 }
