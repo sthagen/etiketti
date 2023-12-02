@@ -1,7 +1,7 @@
 {
   "etiketti": {
-    "version": "7.3.2",
-    "timestamp": "2023-12-02T15:17:18.616414",
+    "coverage_tool_version": "7.3.2",
+    "timestamp": "2023-12-02 15:53:52 +00:00",
     "branch_coverage": true,
     "show_contexts": true,
     "covered_lines": 324,
@@ -13,6 +13,23 @@
     "num_branches": 78,
     "num_partial_branches": 14,
     "covered_branches": 64,
-    "missing_branches": 14
+    "missing_branches": 14,
+    "node_id": "c79891e5-aabf-3a83-95b9-588edcd8327f",
+    "nfiles": 4,
+    "files": [
+      "etiketti/__init__.py",
+      "etiketti/cli.py",
+      "etiketti/discover.py",
+      "etiketti/implementation.py"
+    ],
+    "blake3": "d4ad3c246004e596bb3a3c6705ec2b2d135d8564bb26cfb0db0852129cc31708",
+    "blake2": "09d455a1980b967a38bec3c7f16048df811b96fcccc10540584b0cf0154309bec458cc2601fde1a964f9ca5b3cc8500e32b1edf770d69993b9ce520389171c1e",
+    "sha512": "86cb965e7717edc16c7570af99f2ccd81e079070967516a555867e3822dfa1df1a6be3dbe2d7010b73ca5e93e5386714dd2863755834d6e6564d3462a1215def",
+    "sha384": "6653e1a899ae3ac0bc0e4b71fd929f11a756b6355cf25f13bba189c9616c18c69d68388e76f7ab7c4fca9b8b904cbb71",
+    "sha256": "b522504d2159bd68a4ab00ab1e3599a10a3474c90f02561bc095f0021a5ce011",
+    "sha1": "a6d3c9959f617a5b292b1663dbc1bf1b17001946",
+    "md5": "b530f3635e114cf9d41ad089eeea4140",
+    "python_version": "3.10.12",
+    "entropy": 5.114327
   }
 }
