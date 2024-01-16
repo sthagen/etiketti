@@ -1,6 +1,6 @@
 SPDXVersion: SPDX-2.3
 DataLicense: CC0-1.0
-DocumentNamespace: https://cyclonedx/b3134f08-0ec2-4dcb-9bb9-a520a0c2a72d_1
+DocumentNamespace: https://cyclonedx/dba103ca-c0ba-4b0f-b280-d9863242f02f_1
 DocumentName: From-Cyclone-DX
 SPDXID: SPDXRef-DOCUMENT
 
@@ -8,24 +8,24 @@ SPDXID: SPDXRef-DOCUMENT
 Creator: Tool: CycloneDX:cyclonedx-bom-3.11.7
 Creator: Tool: CycloneDX:cyclonedx-python-lib-3.1.5
 Creator: Tool: CycloneToSpdx-0.1.4
-Created: 2023-11-21T17:58:03Z
+Created: 2024-01-16T17:23:27Z
 CreatorComment: <text>Converted from CycloneDX spec version 1.4</text>
 LicenseListVersion: 3.22
 ## Annotations
 Annotator: Tool: CycloneToSpdx
-AnnotationDate: 2023-11-21T17:58:05Z
+AnnotationDate: 2024-01-16T17:23:30Z
 AnnotationComment: <text>MISSING_CDX_PROPERTY:extensions={}</text>
 AnnotationType: OTHER
 SPDXREF: SPDXRef-DOCUMENT
 ## Relationships
-Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-06cdf81d-a6a3-42f1-937b-3c0a78f90eff
-Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-0774469e-53b5-4e9f-8858-45b65d605b3f
-Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-88cf634b-4e1f-44e6-875f-8214298588a3
-Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-a53d2098-9316-40e4-9740-10bf6e05a63a
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-25302701-d8f0-4f5d-aec3-1830eb14ce4f
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-44c13c08-080b-4cca-b4b2-f026bf8dfb7a
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-45c1d704-7400-4b5d-8302-ad27d6073405
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-e50c875e-542f-4b31-9248-6fde244c60bb
 
 ## Package Information
 PackageName: PyYAML
-SPDXID: SPDXRef-0774469e-53b5-4e9f-8858-45b65d605b3f
+SPDXID: SPDXRef-25302701-d8f0-4f5d-aec3-1830eb14ce4f
 PackageVersion: 6.0
 PackageDownloadLocation: NOASSERTION
 PrimaryPackagePurpose: LIBRARY
@@ -35,15 +35,15 @@ PackageCopyrightText: NOASSERTION
 ExternalRef: PACKAGE-MANAGER purl pkg:pypi/pyyaml@6.0
 ## Annotations
 Annotator: Tool: CycloneToSpdx
-AnnotationDate: 2023-11-21T17:58:05Z
+AnnotationDate: 2024-01-16T17:23:30Z
 AnnotationComment: <text>MISSING_CDX_PROPERTY:componentType="LIBRARY"</text>
 AnnotationType: OTHER
-SPDXREF: SPDXRef-0774469e-53b5-4e9f-8858-45b65d605b3f
+SPDXREF: SPDXRef-25302701-d8f0-4f5d-aec3-1830eb14ce4f
 FilesAnalyzed: false
 
 ## Package Information
 PackageName: liitos
-SPDXID: SPDXRef-06cdf81d-a6a3-42f1-937b-3c0a78f90eff
+SPDXID: SPDXRef-44c13c08-080b-4cca-b4b2-f026bf8dfb7a
 PackageVersion: 2023.6.17
 PackageDownloadLocation: NOASSERTION
 PrimaryPackagePurpose: LIBRARY
@@ -53,15 +53,15 @@ PackageCopyrightText: NOASSERTION
 ExternalRef: PACKAGE-MANAGER purl pkg:pypi/liitos@2023.6.17
 ## Annotations
 Annotator: Tool: CycloneToSpdx
-AnnotationDate: 2023-11-21T17:58:05Z
+AnnotationDate: 2024-01-16T17:23:30Z
 AnnotationComment: <text>MISSING_CDX_PROPERTY:componentType="LIBRARY"</text>
 AnnotationType: OTHER
-SPDXREF: SPDXRef-06cdf81d-a6a3-42f1-937b-3c0a78f90eff
+SPDXREF: SPDXRef-44c13c08-080b-4cca-b4b2-f026bf8dfb7a
 FilesAnalyzed: false
 
 ## Package Information
 PackageName: navigaattori
-SPDXID: SPDXRef-a53d2098-9316-40e4-9740-10bf6e05a63a
+SPDXID: SPDXRef-e50c875e-542f-4b31-9248-6fde244c60bb
 PackageVersion: 2023.6.18
 PackageDownloadLocation: NOASSERTION
 PrimaryPackagePurpose: LIBRARY
@@ -71,15 +71,15 @@ PackageCopyrightText: NOASSERTION
 ExternalRef: PACKAGE-MANAGER purl pkg:pypi/navigaattori@2023.6.18
 ## Annotations
 Annotator: Tool: CycloneToSpdx
-AnnotationDate: 2023-11-21T17:58:05Z
+AnnotationDate: 2024-01-16T17:23:30Z
 AnnotationComment: <text>MISSING_CDX_PROPERTY:componentType="LIBRARY"</text>
 AnnotationType: OTHER
-SPDXREF: SPDXRef-a53d2098-9316-40e4-9740-10bf6e05a63a
+SPDXREF: SPDXRef-e50c875e-542f-4b31-9248-6fde244c60bb
 FilesAnalyzed: false
 
 ## Package Information
 PackageName: pikepdf
-SPDXID: SPDXRef-88cf634b-4e1f-44e6-875f-8214298588a3
+SPDXID: SPDXRef-45c1d704-7400-4b5d-8302-ad27d6073405
 PackageVersion: 6.2.8.post1
 PackageDownloadLocation: NOASSERTION
 PrimaryPackagePurpose: LIBRARY
@@ -89,10 +89,10 @@ PackageCopyrightText: NOASSERTION
 ExternalRef: PACKAGE-MANAGER purl pkg:pypi/pikepdf@6.2.8.post1
 ## Annotations
 Annotator: Tool: CycloneToSpdx
-AnnotationDate: 2023-11-21T17:58:05Z
+AnnotationDate: 2024-01-16T17:23:30Z
 AnnotationComment: <text>MISSING_CDX_PROPERTY:componentType="LIBRARY"</text>
 AnnotationType: OTHER
-SPDXREF: SPDXRef-88cf634b-4e1f-44e6-875f-8214298588a3
+SPDXREF: SPDXRef-45c1d704-7400-4b5d-8302-ad27d6073405
 FilesAnalyzed: false
 
 
