@@ -191,6 +191,9 @@ def cross_correlate(source: PathLike, conventions: ConventionsType, context: Con
             pdf.docinfo['/PTEX.FullBanner'] = backend_version
             pdf.docinfo['/Subject'] = m['dc:subject']
             pdf.docinfo['/Title'] = m['dc:title']
+            if context.get('kv_pairs'):
+                for k, v in context['kv_pairs'].items():
+                    pdf.docinfo[f'/Ctx{k}'] = v
             pdf.save(target, fix_metadata_version=False, linearize=True)
 
     log.info(LOG_SEPARATOR)
@@ -220,6 +223,14 @@ def patch(options: argparse.Namespace) -> int:
     context = load_label_context(cfg_path)
     log.info('loaded label context:')
     for k, v in context['label'].items():
+        log.info(f'- {k :17s} -> {v}')
+    log.info(LOG_SEPARATOR)
+
+    if options.kv_pairs:
+        log.info('key-value pairs from request for context kv_pairs:')
+        context['kv_pairs'] = {}
+    for k, v in options.kv_pairs.items():
+        context['kv_pairs'][k] = v
         log.info(f'- {k :17s} -> {v}')
     log.info(LOG_SEPARATOR)
 
