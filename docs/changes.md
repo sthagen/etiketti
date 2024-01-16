@@ -1,5 +1,10 @@
 # Changes
 
+2024.1.16
+:    * Fixed the Python 3.9 incompatible typing unions per pipe (added the clunky Union\[stuff] back in)
+* Implemented commandline addition of key value pairs for labels
+* Reduced the hard fail scenarios catching the exceptions, logging, and marking as label values
+
 2023.11.23
 :    * Implemented add possibility to overwrite the author in PDF meta data (<https://todo.sr.ht/~sthagen/etiketti/6>)
 * Implemented ensure the title in the PDF meta data is Title Case (<https://todo.sr.ht/~sthagen/etiketti/5>)
