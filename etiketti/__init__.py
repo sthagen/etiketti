@@ -3,7 +3,7 @@ import datetime as dti
 import logging
 import os
 import pathlib
-from typing import List, no_type_check
+from typing import Union, no_type_check
 
 # [[[fill git_describe()]]]
 __version__ = '2023.11.23+parent.g7a392734'
@@ -32,6 +32,9 @@ LOG_FILE = f'{APP_ALIAS}.log'
 LOG_PATH = pathlib.Path(LOG_FOLDER, LOG_FILE) if LOG_FOLDER.is_dir() else pathlib.Path(LOG_FILE)
 LOG_LEVEL = logging.INFO
 
+COMMA = ','
+EQUAL = '='
+
 LOG_SEPARATOR = '- ' * 80
 INTER_PROCESS_SYNC_SECS = 0.1
 INTER_PROCESS_SYNC_ATTEMPTS = 10
@@ -47,9 +50,9 @@ CONFIG_PATH_STRING = os.getenv(f'{APP_ENV}_CONFIG_PATH_STRING', f'/opt/label/{AP
 
 ContextType = dict[str, dict[str, str]]
 ConventionsType = dict[str, pathlib.Path]
-PathLike = str | pathlib.Path
+PathLike = Union[str, pathlib.Path]
 
-__all__: List[str] = [
+__all__: list[str] = [
     'APP_ALIAS',
     'APP_ENV',
     'APP_NAME',
@@ -67,7 +70,23 @@ __all__: List[str] = [
     'ConventionsType',
     'PathLike',
     'log',
+    'parse_key_value_pair_csl',
 ]
+
+
+def parse_key_value_pair_csl(csl: str) -> dict[str, str]:
+    """DRY."""
+    pairs = [pair.strip() for pair in csl.split(COMMA) if pair.strip() and EQUAL in pair]
+    key_value_store = {}
+    for pair in pairs:
+        try:
+            k, v = pair.split(EQUAL, 1)
+        except ValueError:
+            continue
+        real_key = k.strip()
+        if real_key:
+            key_value_store[real_key] = v.strip()
+    return key_value_store
 
 
 @no_type_check

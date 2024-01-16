@@ -2,6 +2,7 @@
 import argparse
 import pathlib
 import sys
+from typing import Union
 
 import etiketti.implementation as impl
 from etiketti import (
@@ -11,10 +12,11 @@ from etiketti import (
     CONFIG_PATH_STRING,
     SOURCE_NAME_PATH_STRING,
     TARGET_NAME_PATH_STRING,
+    parse_key_value_pair_csl,
 )
 
 
-def parse_request(argv: list[str]) -> int | argparse.Namespace:
+def parse_request(argv: list[str]) -> Union[int, argparse.Namespace]:
     """DRY."""
     parser = argparse.ArgumentParser(
         prog=APP_ALIAS, description=APP_NAME, formatter_class=argparse.RawTextHelpFormatter
@@ -67,6 +69,13 @@ def parse_request(argv: list[str]) -> int | argparse.Namespace:
         help='show version of the app and exit',
         required=False,
     )
+    parser.add_argument(
+        '--key-value-pairs',
+        '-k',
+        dest='key_value_pair_csl',
+        default='',
+        help='key value pairs as comma separated list of key=value pairs (default: empty string)',
+    )
 
     if not argv:
         print(f'{APP_NAME} version {APP_VERSION}')
@@ -84,6 +93,8 @@ def parse_request(argv: list[str]) -> int | argparse.Namespace:
             options.in_pdf = options.in_pdf_pos
         else:
             options.in_pdf = SOURCE_NAME_PATH_STRING
+
+    options.kv_pairs = parse_key_value_pair_csl(options.key_value_pair_csl)
 
     in_pdf = pathlib.Path(options.in_pdf)
     if in_pdf.exists():
