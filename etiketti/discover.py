@@ -3,7 +3,7 @@ import io
 import pathlib
 import platform
 import subprocess  # nosec B404
-from typing import Any, Callable, no_type_check
+from typing import Any, Callable, Union, no_type_check
 
 import yaml
 
@@ -40,15 +40,19 @@ def get_producer() -> str:
     return producer_version
 
 
-def hash_file(path: pathlib.Path, hasher: Callable[..., Any] | None = None) -> str:
+def hash_file(path: pathlib.Path, hasher: Union[Callable[..., Any], None] = None) -> str:
     """Return the SHA512 hex digest of the data from file."""
     if hasher is None:
         hasher = hashlib.sha512
     the_hash = hasher()
-    with open(path, 'rb') as handle:
-        while chunk := handle.read(CHUNK_SIZE):
-            the_hash.update(chunk)
-    return the_hash.hexdigest()
+    try:
+        with open(path, 'rb') as handle:
+            while chunk := handle.read(CHUNK_SIZE):
+                the_hash.update(chunk)
+        return the_hash.hexdigest()
+    except FileNotFoundError as err:
+        log.warn(f'hash file failed with: ({err})')
+    return 'error:plain:file-to-hash-not-found'
 
 
 @no_type_check
@@ -63,24 +67,33 @@ def extract_author(path: PathLike) -> str:
     """Extract the author from the approvals file if DEFAULT_AUTHOR is false-like."""
     if DEFAULT_AUTHOR:
         return DEFAULT_AUTHOR
-    with open(path, 'rt', encoding=ENCODING) as handle:
-        approvals = yaml.safe_load(handle)
-    entries = approvals['approvals']
-    for entry in entries:
-        if entry.get('role').lower() == 'author':
-            return entry.get('name', '') or DEFAULT_AUTHOR
+    try:
+        with open(path, 'rt', encoding=ENCODING) as handle:
+            approvals = yaml.safe_load(handle)
+        entries = approvals['approvals']
+        for entry in entries:
+            if entry.get('role').lower() == 'author':
+                return entry.get('name', '') or DEFAULT_AUTHOR
+    except FileNotFoundError as err:
+        log.warning(f'extract author failed with: ({err})')
     return DEFAULT_AUTHOR
 
 
 def extract_meta_parts(path: PathLike) -> tuple[str, str, str]:
     """Extract the title, subject, keywords in that order from the metadata file."""
-    with open(path, 'rt', encoding=ENCODING) as handle:
-        metadata = yaml.safe_load(handle)
-    mapping = metadata['document']['common']
-    title = mapping.get('title', '').replace('\\\\', '').replace('  ', ' ').title()
-    subject = mapping.get('header_id', '')
-    keywords = mapping.get('keywords_csl', '')
-    return title or '', subject or '', keywords or ''
+    try:
+        with open(path, 'rt', encoding=ENCODING) as handle:
+            metadata = yaml.safe_load(handle)
+        mapping = metadata['document']['common']
+        title = mapping.get('title', '').replace('\\\\', '').replace('  ', ' ').title()
+        subject = mapping.get('header_id', '')
+        if subject.startswith('Issue,'):
+            subject = mapping.get('header_issue_revision_combined_label', '')
+        keywords = mapping.get('keywords_csl', '')
+        return title or '', subject or '', keywords or ''
+    except FileNotFoundError as err:
+        log.warning(f'extract meta parts failed with: ({err})')
+    return '', '', ''
 
 
 def load_conventions(context: ContextType, path: PathLike) -> ConventionsType:
