@@ -1,4 +1,5 @@
 """Command line interface for labeling."""
+
 import argparse
 import pathlib
 import sys
