@@ -1,4 +1,4 @@
-PyYAML==6.0
-liitos==2023.6.17
-navigaattori==2023.6.18
-pikepdf==6.2.8.post1
+PyYAML==6.0.1
+liitos==2024.1.22
+navigaattori==2023.12.4
+pikepdf==8.12.0
