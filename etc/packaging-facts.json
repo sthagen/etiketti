@@ -21,6 +21,7 @@
       "last_month": -1,
       "last_week": -1
     },
+    "dynamic": null,
     "home_page": "",
     "keywords": "developer-tools,devops",
     "license": "",
@@ -37,6 +38,7 @@
       "Source-Code": "https://git.sr.ht/~sthagen/etiketti",
       "Test-Coverage": "https://codes.dilettant.life/coverage/etiketti"
     },
+    "provides_extra": null,
     "release_url": "https://pypi.org/project/etiketti/2024.1.16/",
     "requires_dist": [
       "PyYAML >=6.0",
