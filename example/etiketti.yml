@@ -12,4 +12,14 @@ label:
   publisher-tex-name: publisher.tex
   setup-tex-name: setup.tex
   this-tex-name: this.tex
+  classification: Public
+  creator:
+  - Given Family and Other Name
+  keywords:
+    - Keyword
+    - Other
+    - Next
+    - Final
+  subject: The Topic or Organizational Source of the Document or Empty
+  title: The Title of the Document or Empty
 
