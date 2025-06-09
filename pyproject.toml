@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "etiketti"
-version = "2024.1.16"
+version = "2025.6.8"
 description = "Label (Finnish: etiketti) some files."
 readme = "README.md"
 license = {file = "LICENSE"}
@@ -17,6 +17,7 @@ classifiers = [
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
     "Programming Language :: Python :: 3.9",
 ]
 keywords = ["developer-tools", "devops"]
@@ -48,7 +49,7 @@ exclude = ["test*"]
 [tool.black]
 line-length = 120
 skip-string-normalization = true
-target-version = [ "py39", "py310", "py311", "py312" ]
+target-version = [ "py39", "py310", "py311", "py312", "py313" ]
 
 [tool.coverage.run]
 branch = true
