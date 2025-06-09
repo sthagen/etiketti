@@ -87,8 +87,10 @@ def extract_meta_parts(path: PathLike) -> tuple[str, str, str]:
         mapping = metadata['document']['common']
         title = mapping.get('title', '').replace('\\\\', '').replace('  ', ' ').title()
         subject = mapping.get('header_id', '')
-        if subject.startswith('Issue,'):
+        if subject and subject.startswith('Issue,'):
             subject = mapping.get('header_issue_revision_combined_label', '')
+        else:
+            subject = ''
         keywords = mapping.get('keywords_csl', '')
         return title or '', subject or '', keywords or ''
     except FileNotFoundError as err:

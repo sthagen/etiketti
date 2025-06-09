@@ -123,10 +123,10 @@ def cross_correlate(source: PathLike, conventions: ConventionsType, context: Con
 
     author = extract_author(conventions['approvals-yml-path'])
     title, subject, keywords = extract_meta_parts(conventions['metadata-yml-path'])
-    dc_subject = subject
-    dc_creator = [author]
-    dc_title = title
-    keywords = keywords
+    dc_subject = subject if subject else context['label'].get('subject', '')
+    dc_creator = [author] if author else context['label'].get('author', '')
+    dc_title = title if title else context['label'].get('title', '')
+    keywords = keywords if keywords else context['label'].get('keywords', [])
     hashes = {f'{camelize_first_two(k)}Hash': f'sha512:{hash_file(v)}' for k, v in conventions.items() if '-tex-' in k}
     for k, v in hashes.items():
         log.info(f'- {k :17s} -> {v}')
@@ -134,7 +134,7 @@ def cross_correlate(source: PathLike, conventions: ConventionsType, context: Con
     label_prefix = context['label']['prefix']
     label_site_id = context['label']['site-id']
     label_action_id = context['label']['action-id']
-    classification = 'Internal'
+    classification = context['label'].get('classification', 'Internal')
     content_bits = '0'
     enabled = 'true'
     method = 'Privileged'
