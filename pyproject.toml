@@ -19,7 +19,6 @@ classifiers = [
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
     "Programming Language :: Python :: 3.14",
-    "Programming Language :: Python :: 3.9",
 ]
 keywords = ["developer-tools", "devops"]
 dependencies = [
@@ -28,7 +27,7 @@ dependencies = [
     "navigaattori >= 2023.12.04",
     "pikepdf >= 10.3.0",
 ]
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 
 [project.optional-dependencies]
 dev = ["black", "coverage", "hypothesis", "mypy", "pytest", "pytest-cov", "pytest-flake8", "ruff"]
@@ -50,7 +49,7 @@ exclude = ["test*"]
 [tool.black]
 line-length = 120
 skip-string-normalization = true
-target-version = [ "py39", "py310", "py311", "py312", "py313", "py314" ]
+target-version = [ "py310", "py311", "py312", "py313", "py314" ]
 
 [tool.coverage.run]
 branch = true

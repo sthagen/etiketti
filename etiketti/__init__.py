@@ -4,7 +4,7 @@ import datetime as dti
 import logging
 import os
 import pathlib
-from typing import Union, no_type_check
+from typing import no_type_check
 
 # [[[fill git_describe()]]]
 __version__ = '2025.6.8+parent.g92179d78'
@@ -51,7 +51,7 @@ CONFIG_PATH_STRING = os.getenv(f'{APP_ENV}_CONFIG_PATH_STRING', f'/opt/label/{AP
 
 ContextType = dict[str, dict[str, str]]
 ConventionsType = dict[str, pathlib.Path]
-PathLike = Union[str, pathlib.Path]
+PathLike = str | pathlib.Path
 
 __all__: list[str] = [
     'APP_ALIAS',

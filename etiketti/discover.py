@@ -3,7 +3,7 @@ import io
 import pathlib
 import platform
 import subprocess  # nosec B404
-from typing import Any, Callable, Union, no_type_check
+from typing import Any, Callable, no_type_check
 
 import yaml
 
@@ -40,7 +40,7 @@ def get_producer() -> str:
     return producer_version
 
 
-def hash_file(path: pathlib.Path, hasher: Union[Callable[..., Any], None] = None) -> str:
+def hash_file(path: pathlib.Path, hasher: Callable[..., Any] | None = None) -> str:
     """Return the SHA512 hex digest of the data from file."""
     if hasher is None:
         hasher = hashlib.sha512

@@ -3,7 +3,6 @@
 import argparse
 import pathlib
 import sys
-from typing import Union
 
 import etiketti.implementation as impl
 from etiketti import (
@@ -17,7 +16,7 @@ from etiketti import (
 )
 
 
-def parse_request(argv: list[str]) -> Union[int, argparse.Namespace]:
+def parse_request(argv: list[str]) -> int | argparse.Namespace:
     """DRY."""
     parser = argparse.ArgumentParser(
         prog=APP_ALIAS, description=APP_NAME, formatter_class=argparse.RawTextHelpFormatter

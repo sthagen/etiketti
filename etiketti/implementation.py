@@ -10,7 +10,7 @@ import warnings
 from typing import no_type_check
 
 try:
-    from liitos import APP_ALIAS as CREATOR_NAME, __version__ as CREATOR_VERSION  # type: ignore
+    from liitos import APP_ALIAS as CREATOR_NAME, APP_VERSION as CREATOR_VERSION  # type: ignore
 except ModuleNotFoundError:
     CREATOR_NAME = 'liitos'
     CREATOR_VERSION = '42'
