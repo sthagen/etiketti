@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "etiketti"
-version = "2025.6.8"
+version = "2026.2.2"
 description = "Label (Finnish: etiketti) some files."
 readme = "README.md"
 license = "MPL-2.0"

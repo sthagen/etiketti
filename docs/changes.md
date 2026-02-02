@@ -1,5 +1,8 @@
 # Changes
 
+2026.2.2
+:    Removed python 3.9 support.
+
 2025.6.8
 :    Made configuration file overwrite failed magical value retrieval and a fix.
 
