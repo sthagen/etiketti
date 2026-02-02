@@ -1,4 +1,4 @@
 PyYAML==6.0.3
-liitos==2025.10.14
+liitos==2026.2.1
 navigaattori==2023.12.4
-pikepdf==10.0.2
+pikepdf==10.3.0
